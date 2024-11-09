@@ -751,22 +751,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: \
  /usr/include/opencv4/opencv2/core/core_c.h \
  /usr/include/opencv4/opencv2/core/types_c.h \
  /opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge_export.h \
- /opt/ros/iron/include/image_transport/image_transport/image_transport.hpp \
- /opt/ros/iron/include/image_transport/image_transport/camera_publisher.hpp \
- /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp \
- /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp \
- /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp \
- /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp \
- /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp \
- /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp \
- /opt/ros/iron/include/image_transport/image_transport/single_subscriber_publisher.hpp \
- /opt/ros/iron/include/image_transport/image_transport/visibility_control.hpp \
- /opt/ros/iron/include/image_transport/image_transport/camera_subscriber.hpp \
- /opt/ros/iron/include/image_transport/image_transport/publisher.hpp \
- /opt/ros/iron/include/image_transport/image_transport/exception.hpp \
- /opt/ros/iron/include/image_transport/image_transport/loader_fwds.hpp \
- /opt/ros/iron/include/image_transport/image_transport/subscriber.hpp \
- /opt/ros/iron/include/image_transport/image_transport/transport_hints.hpp \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/calib3d.hpp \
  /usr/include/opencv4/opencv2/features2d.hpp \

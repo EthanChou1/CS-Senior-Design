@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.001221] (my_opencv_demo) JobQueued: {'identifier': 'my_opencv_demo', 'dependencies': OrderedDict()}
+[0.001573] (my_opencv_demo) JobStarted: {'identifier': 'my_opencv_demo'}
+[0.017890] (my_opencv_demo) JobProgress: {'identifier': 'my_opencv_demo', 'progress': 'cmake'}
+[0.019287] (my_opencv_demo) JobProgress: {'identifier': 'my_opencv_demo', 'progress': 'build'}
+[0.020645] (my_opencv_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ethan/ros2_ws/build/my_opencv_demo', '--', '-j6', '-l6'], 'cwd': '/home/ethan/ros2_ws/build/my_opencv_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ethan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/ethan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '7225'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ethan/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ethan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ethan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ethan-desktop:@/tmp/.ICE-unix/2423,unix/ethan-desktop:/tmp/.ICE-unix/2423'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/617e5442_3f7c_426f_afa2_e811de8707e9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ethan/ros2_ws/install/my_opencv_demo:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ethan/ros2_ws/build/my_opencv_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ethan/ros2_ws/install/my_opencv_demo:/opt/ros/iron')]), 'shell': False}
+[0.099204] (-) TimerEvent: {}
+[0.115391] (my_opencv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node\x1b[0m\n'}
+[0.161984] (my_opencv_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o\x1b[0m\n'}
+[0.199369] (-) TimerEvent: {}
+[0.300038] (-) TimerEvent: {}
+[0.400843] (-) TimerEvent: {}
+[0.501609] (-) TimerEvent: {}
+[0.602423] (-) TimerEvent: {}
+[0.703227] (-) TimerEvent: {}
+[0.803957] (-) TimerEvent: {}
+[0.904551] (-) TimerEvent: {}
+[1.005279] (-) TimerEvent: {}
+[1.106091] (-) TimerEvent: {}
+[1.206905] (-) TimerEvent: {}
+[1.307699] (-) TimerEvent: {}
+[1.408353] (-) TimerEvent: {}
+[1.509009] (-) TimerEvent: {}
+[1.609617] (-) TimerEvent: {}
+[1.710272] (-) TimerEvent: {}
+[1.810935] (-) TimerEvent: {}
+[1.911591] (-) TimerEvent: {}
+[2.012267] (-) TimerEvent: {}
+[2.112966] (-) TimerEvent: {}
+[2.213639] (-) TimerEvent: {}
+[2.314333] (-) TimerEvent: {}
+[2.415112] (-) TimerEvent: {}
+[2.515807] (-) TimerEvent: {}
+[2.616459] (-) TimerEvent: {}
+[2.717156] (-) TimerEvent: {}
+[2.817926] (-) TimerEvent: {}
+[2.919070] (-) TimerEvent: {}
+[3.019917] (-) TimerEvent: {}
+[3.120716] (-) TimerEvent: {}
+[3.221437] (-) TimerEvent: {}
+[3.322169] (-) TimerEvent: {}
+[3.422886] (-) TimerEvent: {}
+[3.523589] (-) TimerEvent: {}
+[3.624290] (-) TimerEvent: {}
+[3.725006] (-) TimerEvent: {}
+[3.825698] (-) TimerEvent: {}
+[3.926397] (-) TimerEvent: {}
+[4.027117] (-) TimerEvent: {}
+[4.127814] (-) TimerEvent: {}
+[4.228485] (-) TimerEvent: {}
+[4.329181] (-) TimerEvent: {}
+[4.429847] (-) TimerEvent: {}
+[4.530532] (-) TimerEvent: {}
+[4.631232] (-) TimerEvent: {}
+[4.732078] (-) TimerEvent: {}
+[4.832993] (-) TimerEvent: {}
+[4.933881] (-) TimerEvent: {}
+[5.034561] (-) TimerEvent: {}
+[5.135235] (-) TimerEvent: {}
+[5.235905] (-) TimerEvent: {}
+[5.336566] (-) TimerEvent: {}
+[5.437287] (-) TimerEvent: {}
+[5.537971] (-) TimerEvent: {}
+[5.638651] (-) TimerEvent: {}
+[5.739325] (-) TimerEvent: {}
+[5.839996] (-) TimerEvent: {}
+[5.940672] (-) TimerEvent: {}
+[6.041459] (-) TimerEvent: {}
+[6.142161] (-) TimerEvent: {}
+[6.242823] (-) TimerEvent: {}
+[6.343478] (-) TimerEvent: {}
+[6.444132] (-) TimerEvent: {}
+[6.544793] (-) TimerEvent: {}
+[6.645495] (-) TimerEvent: {}
+[6.746185] (-) TimerEvent: {}
+[6.846851] (-) TimerEvent: {}
+[6.947538] (-) TimerEvent: {}
+[7.048217] (-) TimerEvent: {}
+[7.148996] (-) TimerEvent: {}
+[7.249782] (-) TimerEvent: {}
+[7.350601] (-) TimerEvent: {}
+[7.451425] (-) TimerEvent: {}
+[7.552247] (-) TimerEvent: {}
+[7.653034] (-) TimerEvent: {}
+[7.753724] (-) TimerEvent: {}
+[7.854395] (-) TimerEvent: {}
+[7.955059] (-) TimerEvent: {}
+[8.055836] (-) TimerEvent: {}
+[8.156647] (-) TimerEvent: {}
+[8.257480] (-) TimerEvent: {}
+[8.358153] (-) TimerEvent: {}
+[8.458832] (-) TimerEvent: {}
+[8.559509] (-) TimerEvent: {}
+[8.660203] (-) TimerEvent: {}
+[8.761048] (-) TimerEvent: {}
+[8.861851] (-) TimerEvent: {}
+[8.939936] (my_opencv_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalImagePublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.940674] (my_opencv_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:38:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.941101] (my_opencv_demo) StderrLine: {'line': b'   38 |     publisher_->publish(*\x1b[01;31m\x1b[Kmsg_\x1b[m\x1b[K);\n'}
+[8.941299] (my_opencv_demo) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.941521] (my_opencv_demo) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[8.961963] (-) TimerEvent: {}
+[9.062661] (-) TimerEvent: {}
+[9.163474] (-) TimerEvent: {}
+[9.264288] (-) TimerEvent: {}
+[9.365051] (-) TimerEvent: {}
+[9.465857] (-) TimerEvent: {}
+[9.566624] (-) TimerEvent: {}
+[9.667412] (-) TimerEvent: {}
+[9.768223] (-) TimerEvent: {}
+[9.869003] (-) TimerEvent: {}
+[9.969714] (-) TimerEvent: {}
+[10.070431] (-) TimerEvent: {}
+[10.171254] (-) TimerEvent: {}
+[10.272033] (-) TimerEvent: {}
+[10.372754] (-) TimerEvent: {}
+[10.473600] (-) TimerEvent: {}
+[10.574493] (-) TimerEvent: {}
+[10.675208] (-) TimerEvent: {}
+[10.775885] (-) TimerEvent: {}
+[10.876566] (-) TimerEvent: {}
+[10.977417] (-) TimerEvent: {}
+[11.078218] (-) TimerEvent: {}
+[11.179034] (-) TimerEvent: {}
+[11.279832] (-) TimerEvent: {}
+[11.380627] (-) TimerEvent: {}
+[11.481488] (-) TimerEvent: {}
+[11.582283] (-) TimerEvent: {}
+[11.683079] (-) TimerEvent: {}
+[11.783884] (-) TimerEvent: {}
+[11.884693] (-) TimerEvent: {}
+[11.985540] (-) TimerEvent: {}
+[12.086335] (-) TimerEvent: {}
+[12.187153] (-) TimerEvent: {}
+[12.287973] (-) TimerEvent: {}
+[12.388784] (-) TimerEvent: {}
+[12.442741] (my_opencv_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_node.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o] Error 1\n'}
+[12.443480] (my_opencv_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_opencv_ros2_node.dir/all] Error 2\n'}
+[12.444305] (my_opencv_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.449848] (my_opencv_demo) CommandEnded: {'returncode': 2}
+[12.488942] (-) TimerEvent: {}
+[12.541376] (my_opencv_demo) JobEnded: {'identifier': 'my_opencv_demo', 'rc': 2}
+[12.552655] (-) EventReactorShutdown: {}

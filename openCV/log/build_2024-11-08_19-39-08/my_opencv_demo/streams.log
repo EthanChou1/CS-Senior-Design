@@ -1,0 +1,12 @@
+[0.025s] Invoking command in '/home/ethan/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6
+[0.114s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node[0m
+[0.161s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o[0m
+[8.939s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:[m[K In member function ‘[01m[Kvoid MinimalImagePublisher::timer_callback()[m[K’:
+[8.939s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:38:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmsg[m[K’?
+[8.939s]    38 |     publisher_->publish(*[01;31m[Kmsg_[m[K);
+[8.940s]       |                          [01;31m[K^~~~[m[K
+[8.940s]       |                          [32m[Kmsg[m[K
+[12.441s] gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_node.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o] Error 1
+[12.442s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_opencv_ros2_node.dir/all] Error 2
+[12.443s] gmake: *** [Makefile:146: all] Error 2
+[12.449s] Invoked command in '/home/ethan/ros2_ws/build/my_opencv_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6

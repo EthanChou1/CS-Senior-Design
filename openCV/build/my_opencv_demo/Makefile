@@ -210,6 +210,19 @@ minimal_opencv_ros2_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_opencv_ros2_node.dir/build.make CMakeFiles/minimal_opencv_ros2_node.dir/build
 .PHONY : minimal_opencv_ros2_node/fast
 
+#=============================================================================
+# Target rules for targets named minimal_opencv_ros2_subscriber
+
+# Build rule for target.
+minimal_opencv_ros2_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 minimal_opencv_ros2_subscriber
+.PHONY : minimal_opencv_ros2_subscriber
+
+# fast build rule for target.
+minimal_opencv_ros2_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make CMakeFiles/minimal_opencv_ros2_subscriber.dir/build
+.PHONY : minimal_opencv_ros2_subscriber/fast
+
 src/minimal_opencv_ros2_node.o: src/minimal_opencv_ros2_node.cpp.o
 .PHONY : src/minimal_opencv_ros2_node.o
 
@@ -234,6 +247,30 @@ src/minimal_opencv_ros2_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_opencv_ros2_node.dir/build.make CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.s
 .PHONY : src/minimal_opencv_ros2_node.cpp.s
 
+src/minimal_opencv_ros2_subscriber.o: src/minimal_opencv_ros2_subscriber.cpp.o
+.PHONY : src/minimal_opencv_ros2_subscriber.o
+
+# target to build an object file
+src/minimal_opencv_ros2_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o
+.PHONY : src/minimal_opencv_ros2_subscriber.cpp.o
+
+src/minimal_opencv_ros2_subscriber.i: src/minimal_opencv_ros2_subscriber.cpp.i
+.PHONY : src/minimal_opencv_ros2_subscriber.i
+
+# target to preprocess a source file
+src/minimal_opencv_ros2_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.i
+.PHONY : src/minimal_opencv_ros2_subscriber.cpp.i
+
+src/minimal_opencv_ros2_subscriber.s: src/minimal_opencv_ros2_subscriber.cpp.s
+.PHONY : src/minimal_opencv_ros2_subscriber.s
+
+# target to generate assembly for a file
+src/minimal_opencv_ros2_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.s
+.PHONY : src/minimal_opencv_ros2_subscriber.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... my_opencv_demo_uninstall"
 	@echo "... uninstall"
 	@echo "... minimal_opencv_ros2_node"
+	@echo "... minimal_opencv_ros2_subscriber"
 	@echo "... src/minimal_opencv_ros2_node.o"
 	@echo "... src/minimal_opencv_ros2_node.i"
 	@echo "... src/minimal_opencv_ros2_node.s"
+	@echo "... src/minimal_opencv_ros2_subscriber.o"
+	@echo "... src/minimal_opencv_ros2_subscriber.i"
+	@echo "... src/minimal_opencv_ros2_subscriber.s"
 .PHONY : help
 
 

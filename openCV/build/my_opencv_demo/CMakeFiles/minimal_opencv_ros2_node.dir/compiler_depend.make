@@ -827,22 +827,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
   /usr/include/opencv4/opencv2/core/core_c.h \
   /usr/include/opencv4/opencv2/core/types_c.h \
   /opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge_export.h \
-  /opt/ros/iron/include/image_transport/image_transport/image_transport.hpp \
-  /opt/ros/iron/include/image_transport/image_transport/camera_publisher.hpp \
-  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp \
-  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp \
-  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp \
-  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp \
-  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp \
-  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp \
-  /opt/ros/iron/include/image_transport/image_transport/single_subscriber_publisher.hpp \
-  /opt/ros/iron/include/image_transport/image_transport/visibility_control.hpp \
-  /opt/ros/iron/include/image_transport/image_transport/camera_subscriber.hpp \
-  /opt/ros/iron/include/image_transport/image_transport/publisher.hpp \
-  /opt/ros/iron/include/image_transport/image_transport/exception.hpp \
-  /opt/ros/iron/include/image_transport/image_transport/loader_fwds.hpp \
-  /opt/ros/iron/include/image_transport/image_transport/subscriber.hpp \
-  /opt/ros/iron/include/image_transport/image_transport/transport_hints.hpp \
   /usr/include/opencv4/opencv2/opencv.hpp \
   /usr/include/opencv4/opencv2/calib3d.hpp \
   /usr/include/opencv4/opencv2/features2d.hpp \
@@ -966,6 +950,8 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 
 /usr/include/opencv4/opencv2/flann/timer.h:
 
+/usr/include/opencv4/opencv2/flann/index_testing.h:
+
 /usr/include/c++/11/math.h:
 
 /usr/include/opencv4/opencv2/flann/lsh_table.h:
@@ -1007,16 +993,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 /usr/include/opencv4/opencv2/features2d.hpp:
 
 /usr/include/opencv4/opencv2/opencv.hpp:
-
-/opt/ros/iron/include/image_transport/image_transport/visibility_control.hpp:
-
-/usr/include/opencv4/opencv2/flann/index_testing.h:
-
-/opt/ros/iron/include/image_transport/image_transport/single_subscriber_publisher.hpp:
-
-/opt/ros/iron/include/image_transport/image_transport/camera_publisher.hpp:
-
-/opt/ros/iron/include/image_transport/image_transport/image_transport.hpp:
 
 /usr/include/opencv4/opencv2/core/core_c.h:
 
@@ -1126,8 +1102,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 
 /opt/ros/iron/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
-/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp:
-
 /opt/ros/iron/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
 
 /opt/ros/iron/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
@@ -1158,8 +1132,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 
 /opt/ros/iron/include/rclcpp/rclcpp/wait_set_template.hpp:
 
-/opt/ros/iron/include/image_transport/image_transport/publisher.hpp:
-
 /opt/ros/iron/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
 
 /opt/ros/iron/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
@@ -1177,8 +1149,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 /opt/ros/iron/include/rclcpp/rclcpp/wait_result_kind.hpp:
 
 /opt/ros/iron/include/rclcpp/rclcpp/wait_result.hpp:
-
-/opt/ros/iron/include/image_transport/image_transport/exception.hpp:
 
 /opt/ros/iron/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:
 
@@ -1278,8 +1248,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 
 /opt/ros/iron/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
 
-/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp:
-
 /opt/ros/iron/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
 /opt/ros/iron/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
@@ -1321,10 +1289,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 /usr/include/c++/11/numeric:
 
 /opt/ros/iron/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
-
-/opt/ros/iron/include/image_transport/image_transport/subscriber.hpp:
-
-/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
@@ -1520,8 +1484,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 
 /usr/include/c++/11/cstdint:
 
-/opt/ros/iron/include/image_transport/image_transport/transport_hints.hpp:
-
 /opt/ros/iron/include/rmw/rmw/security_options.h:
 
 /opt/ros/iron/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
@@ -1714,8 +1676,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 
 /usr/include/aarch64-linux-gnu/bits/sigstack.h:
 
-/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp:
-
 /usr/include/linux/posix_types.h:
 
 /usr/include/opencv4/opencv2/calib3d.hpp:
@@ -1905,8 +1865,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 /usr/include/errno.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
-
-/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
@@ -2254,15 +2212,11 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
-/opt/ros/iron/include/image_transport/image_transport/loader_fwds.hpp:
-
 /usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/opencv4/opencv2/imgproc.hpp:
 
 /usr/include/c++/11/bits/unordered_map.h:
-
-/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp:
 
 /opt/ros/iron/include/rcl/rcl/types.h:
 
@@ -2383,8 +2337,6 @@ CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o: /hom
 /opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.hpp:
 
 /opt/ros/iron/include/rmw/rmw/init_options.h:
-
-/opt/ros/iron/include/image_transport/image_transport/camera_subscriber.hpp:
 
 /opt/ros/iron/include/rmw/rmw/domain_id.h:
 

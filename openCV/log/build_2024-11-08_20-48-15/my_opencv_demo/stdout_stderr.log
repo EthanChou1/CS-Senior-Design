@@ -1,0 +1,90 @@
+[35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_subscriber[0m
+[ 50%] Built target minimal_opencv_ros2_node
+[ 75%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o[0m
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:1:39:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    1 | class MinimalImageSubscriber : public [01;31m[Krclcpp[m[K::Node {
+      |                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:1:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+    1 | class MinimalImageSubscriber : public rclcpp::[01;31m[KNode[m[K {
+      |                                               [01;31m[K^~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:2:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+    2 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:2:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:1:52:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    1 | class MinimalImageSubscriber : public rclcpp::Node [01;36m[K{[m[K
+      |                                                    [01;36m[K^[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:14:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   14 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:41:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   41 |   void ensure_folder_exists(const std::[01;31m[Kstring[m[K &folder_path) {
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+  +++ |+[32m[K#include <string>[m[K
+    1 | class MinimalImageSubscriber : public rclcpp::Node {
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:[m[K In function ‘[01m[Kvoid ensure_folder_exists(const int&)[m[K’:
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:42:17:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[Kensure_folder_exists(const int&)::stat info[m[K’ has incomplete type and cannot be defined
+   42 |     struct stat [01;31m[Kinfo[m[K;
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:43:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kfolder_path[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   43 |     if (stat(folder_path.[01;31m[Kc_str[m[K(), &info) != 0) {
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:43:40:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kstruct ensure_folder_exists(const int&)::stat[m[K’
+   43 |     if (stat(folder_path.c_str(), &info[01;31m[K)[m[K != 0) {
+      |                                        [01;31m[K^[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:42:12:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kstruct ensure_folder_exists(const int&)::stat[m[K’
+   42 |     struct [01;36m[Kstat[m[K info;
+      |            [01;36m[K^~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:45:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kfolder_path[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   45 |       if (mkdir(folder_path.[01;31m[Kc_str[m[K(), 0777) == 0) {
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:45:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmkdir[m[K’ was not declared in this scope
+   45 |       if ([01;31m[Kmkdir[m[K(folder_path.c_str(), 0777) == 0) {
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:46:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   46 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Created folder: %s", folder_path.c_str());
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:46:75:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kfolder_path[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   46 |         RCLCPP_INFO(this->get_logger(), "Created folder: %s", folder_path.[01;31m[Kc_str[m[K());
+      |                                                                           [01;31m[K^~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   46 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Created folder: %s", folder_path.c_str());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:48:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   48 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Failed to create folder: %s", folder_path.c_str());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:48:85:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kfolder_path[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   48 |         RCLCPP_ERROR(this->get_logger(), "Failed to create folder: %s", folder_path.[01;31m[Kc_str[m[K());
+      |                                                                                     [01;31m[K^~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR[m[K’ was not declared in this scope
+   48 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Failed to create folder: %s", folder_path.c_str());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:50:33:[m[K [01;31m[Kerror: [m[K‘[01m[KS_IFDIR[m[K’ was not declared in this scope
+   50 |     } else if (!(info.st_mode & [01;31m[KS_IFDIR[m[K)) {
+      |                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:51:20:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   51 |       RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "%s exists but is not a folder.", folder_path.c_str());
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:51:86:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kfolder_path[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   51 |       RCLCPP_ERROR(this->get_logger(), "%s exists but is not a folder.", folder_path.[01;31m[Kc_str[m[K());
+      |                                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:51:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR[m[K’ was not declared in this scope
+   51 |       [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "%s exists but is not a folder.", folder_path.c_str());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:[m[K At global scope:
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   55 |   [01;31m[Krclcpp[m[K::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:56:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+   56 |   [01;31m[Ksize_t[m[K count_; // Add count_ as a member variable
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+  +++ |+[32m[K#include <cstddef>[m[K
+    1 | class MinimalImageSubscriber : public rclcpp::Node {
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:57:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   57 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/minimal_opencv_ros2_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

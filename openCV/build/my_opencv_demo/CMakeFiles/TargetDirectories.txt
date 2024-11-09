@@ -1,6 +1,7 @@
 /home/ethan/ros2_ws/build/my_opencv_demo/CMakeFiles/uninstall.dir
 /home/ethan/ros2_ws/build/my_opencv_demo/CMakeFiles/my_opencv_demo_uninstall.dir
 /home/ethan/ros2_ws/build/my_opencv_demo/CMakeFiles/minimal_opencv_ros2_node.dir
+/home/ethan/ros2_ws/build/my_opencv_demo/CMakeFiles/minimal_opencv_ros2_subscriber.dir
 /home/ethan/ros2_ws/build/my_opencv_demo/CMakeFiles/test.dir
 /home/ethan/ros2_ws/build/my_opencv_demo/CMakeFiles/edit_cache.dir
 /home/ethan/ros2_ws/build/my_opencv_demo/CMakeFiles/rebuild_cache.dir

@@ -29,8 +29,13 @@ endif()
 add_executable(minimal_opencv_ros2_node src/minimal_opencv_ros2_node.cpp)
 ament_target_dependencies(minimal_opencv_ros2_node rclcpp std_msgs sensor_msgs cv_bridge image_transport OpenCV)
  
+# Subscriber node
+add_executable(minimal_opencv_ros2_subscriber src/minimal_opencv_ros2_subscriber.cpp)
+ament_target_dependencies(minimal_opencv_ros2_subscriber rclcpp sensor_msgs cv_bridge OpenCV)
+ 
 install(TARGETS
   minimal_opencv_ros2_node
+  minimal_opencv_ros2_subscriber
   DESTINATION lib/${PROJECT_NAME}
 )
  
