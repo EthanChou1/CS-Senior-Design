@@ -1,0 +1,22 @@
+[0.096s] Invoking command in '/home/ethan/ros2_ws/build/my_opencv_demo': /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6
+[0.300s] -- Configuring incomplete, errors occurred!
+[0.300s] See also "/home/ethan/ros2_ws/build/my_opencv_demo/CMakeFiles/CMakeOutput.log".
+[0.300s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.300s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.300s]   has asked CMake to find a package configuration file provided by
+[0.301s]   "ament_cmake", but CMake did not find one.
+[0.301s] 
+[0.301s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.301s]   any of the following names:
+[0.301s] 
+[0.301s]     ament_cmakeConfig.cmake
+[0.301s]     ament_cmake-config.cmake
+[0.301s] 
+[0.301s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.302s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.302s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.302s]   has been installed.
+[0.302s] 
+[0.302s] [0m
+[0.305s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.318s] Invoked command in '/home/ethan/ros2_ws/build/my_opencv_demo' returned '2': /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6

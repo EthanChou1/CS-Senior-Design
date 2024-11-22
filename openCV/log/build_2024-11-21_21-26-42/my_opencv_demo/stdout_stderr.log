@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_subscriber[0m
+[ 50%] Built target minimal_opencv_ros2_node
+[ 75%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o[0m
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:[m[K In member function ‘[01m[Kvoid MinimalImageSubscriber::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:36:39:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst cv::Ptr<cv::aruco::Dictionary>&[m[K’ from expression of type ‘[01m[Kcv::aruco::Dictionary[m[K’
+   36 |       cv::aruco::detectMarkers(frame, [01;31m[Kdictionary[m[K, marker_corners, marker_ids);
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:5[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/aruco.hpp:27:74:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kvoid cv::aruco::detectMarkers(cv::InputArray, const cv::Ptr<cv::aruco::Dictionary>&, cv::OutputArrayOfArrays, cv::OutputArray, const cv::Ptr<cv::aruco::DetectorParameters>&, cv::OutputArrayOfArrays)[m[K’
+   27 | CV_EXPORTS_W void detectMarkers(InputArray image, [01;36m[Kconst Ptr<Dictionary> &dictionary[m[K, OutputArrayOfArrays corners,
+      |                                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/minimal_opencv_ros2_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

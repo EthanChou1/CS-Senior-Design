@@ -1,0 +1,506 @@
+[0.000000] (-) TimerEvent: {}
+[0.000856] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001136] (-) JobUnselected: {'identifier': 'my_opencv_demo'}
+[0.001352] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.001439] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.001591] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.001673] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.017736] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.018350] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/ethan/ros2_ws/src/vision_opencv/cv_bridge', '-DCMAKE_INSTALL_PREFIX=/home/ethan/ros2_ws/install/cv_bridge'], 'cwd': '/home/ethan/ros2_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ethan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/ethan'), ('OLDPWD', '/home/ethan/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ethan/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ethan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ethan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ethan-desktop:@/tmp/.ICE-unix/2527,unix/ethan-desktop:/tmp/.ICE-unix/2527'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/359488e6_c353_4826_8918_2d1d669c2e67'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ethan/ros2_ws/install/my_opencv_demo:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ethan/ros2_ws/build/cv_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ethan/ros2_ws/install/my_opencv_demo:/opt/ros/iron')]), 'shell': False}
+[0.099439] (-) TimerEvent: {}
+[0.200062] (-) TimerEvent: {}
+[0.300590] (-) TimerEvent: {}
+[0.401345] (-) TimerEvent: {}
+[0.452705] (cv_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501632] (-) TimerEvent: {}
+[0.597269] (cv_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.601673] (-) TimerEvent: {}
+[0.621968] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702024] (-) TimerEvent: {}
+[0.785032] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.802065] (-) TimerEvent: {}
+[0.805638] (cv_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.807917] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.809378] (cv_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.819257] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902406] (-) TimerEvent: {}
+[1.003234] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.004172] (-) TimerEvent: {}
+[1.024219] (cv_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.025010] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.025611] (cv_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.034056] (cv_bridge) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[1.104473] (-) TimerEvent: {}
+[1.205455] (-) TimerEvent: {}
+[1.306303] (-) TimerEvent: {}
+[1.407550] (-) TimerEvent: {}
+[1.472305] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.508064] (-) TimerEvent: {}
+[1.609288] (-) TimerEvent: {}
+[1.710408] (-) TimerEvent: {}
+[1.811369] (-) TimerEvent: {}
+[1.912279] (-) TimerEvent: {}
+[2.013197] (-) TimerEvent: {}
+[2.114337] (-) TimerEvent: {}
+[2.215375] (-) TimerEvent: {}
+[2.315982] (-) TimerEvent: {}
+[2.416668] (-) TimerEvent: {}
+[2.517645] (-) TimerEvent: {}
+[2.618409] (-) TimerEvent: {}
+[2.719002] (-) TimerEvent: {}
+[2.759193] (cv_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed \n'}
+[2.819648] (-) TimerEvent: {}
+[2.830411] (cv_bridge) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 \n'}
+[2.837840] (cv_bridge) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[2.919491] (-) TimerEvent: {}
+[2.923921] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[2.947744] (cv_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[2.978408] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.014658] (cv_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.019544] (-) TimerEvent: {}
+[3.119984] (-) TimerEvent: {}
+[3.220560] (-) TimerEvent: {}
+[3.318143] (cv_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[3.320623] (-) TimerEvent: {}
+[3.322194] (cv_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.420817] (-) TimerEvent: {}
+[3.521571] (-) TimerEvent: {}
+[3.531737] (cv_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.593694] (cv_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[3.621712] (-) TimerEvent: {}
+[3.678858] (cv_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.721868] (-) TimerEvent: {}
+[3.822461] (-) TimerEvent: {}
+[3.923055] (-) TimerEvent: {}
+[3.999090] (cv_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[4.023159] (-) TimerEvent: {}
+[4.123699] (-) TimerEvent: {}
+[4.224304] (-) TimerEvent: {}
+[4.324882] (-) TimerEvent: {}
+[4.425572] (-) TimerEvent: {}
+[4.526449] (-) TimerEvent: {}
+[4.593749] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[4.627445] (-) TimerEvent: {}
+[4.728713] (-) TimerEvent: {}
+[4.782598] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[4.784178] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[4.828974] (-) TimerEvent: {}
+[4.929939] (-) TimerEvent: {}
+[4.965216] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[4.966587] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[5.030130] (-) TimerEvent: {}
+[5.130816] (-) TimerEvent: {}
+[5.148578] (cv_bridge) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[5.166808] (cv_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[5.230948] (-) TimerEvent: {}
+[5.331657] (-) TimerEvent: {}
+[5.368999] (cv_bridge) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[5.379982] (cv_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.431797] (-) TimerEvent: {}
+[5.532574] (-) TimerEvent: {}
+[5.570954] (cv_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.572763] (cv_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.632732] (-) TimerEvent: {}
+[5.733784] (-) TimerEvent: {}
+[5.745673] (cv_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.750292] (cv_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.833988] (-) TimerEvent: {}
+[5.935185] (-) TimerEvent: {}
+[6.035841] (-) TimerEvent: {}
+[6.136477] (-) TimerEvent: {}
+[6.237259] (-) TimerEvent: {}
+[6.337991] (-) TimerEvent: {}
+[6.438916] (-) TimerEvent: {}
+[6.539939] (-) TimerEvent: {}
+[6.640915] (-) TimerEvent: {}
+[6.741956] (-) TimerEvent: {}
+[6.842737] (-) TimerEvent: {}
+[6.944065] (-) TimerEvent: {}
+[7.044661] (-) TimerEvent: {}
+[7.145261] (-) TimerEvent: {}
+[7.245850] (-) TimerEvent: {}
+[7.346438] (-) TimerEvent: {}
+[7.447063] (-) TimerEvent: {}
+[7.547875] (-) TimerEvent: {}
+[7.648801] (-) TimerEvent: {}
+[7.749385] (-) TimerEvent: {}
+[7.849952] (-) TimerEvent: {}
+[7.950538] (-) TimerEvent: {}
+[8.051105] (-) TimerEvent: {}
+[8.151740] (-) TimerEvent: {}
+[8.252408] (-) TimerEvent: {}
+[8.353071] (-) TimerEvent: {}
+[8.368659] (cv_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.453399] (-) TimerEvent: {}
+[8.458899] (cv_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[8.467139] (cv_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/ethan/ros2_ws/build/cv_bridge\n'}
+[8.517886] (cv_bridge) CommandEnded: {'returncode': 0}
+[8.519500] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'build'}
+[8.521308] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ethan/ros2_ws/build/cv_bridge', '--', '-j6', '-l6'], 'cwd': '/home/ethan/ros2_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ethan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/ethan'), ('OLDPWD', '/home/ethan/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ethan/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ethan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ethan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ethan-desktop:@/tmp/.ICE-unix/2527,unix/ethan-desktop:/tmp/.ICE-unix/2527'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/359488e6_c353_4826_8918_2d1d669c2e67'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ethan/ros2_ws/install/my_opencv_demo:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ethan/ros2_ws/build/cv_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ethan/ros2_ws/install/my_opencv_demo:/opt/ros/iron')]), 'shell': False}
+[8.553659] (-) TimerEvent: {}
+[8.641669] (cv_bridge) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_mat_sensor_msgs_image_type_adapter.cpp.o\x1b[0m\n'}
+[8.642283] (cv_bridge) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[8.642511] (cv_bridge) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[8.642896] (cv_bridge) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o\x1b[0m\n'}
+[8.648877] (cv_bridge) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o\x1b[0m\n'}
+[8.654935] (-) TimerEvent: {}
+[8.664484] (cv_bridge) StdoutLine: {'line': b'[ 27%] Built target ament_cmake_python_copy_cv_bridge\n'}
+[8.755077] (-) TimerEvent: {}
+[8.855993] (-) TimerEvent: {}
+[8.956963] (-) TimerEvent: {}
+[9.057973] (-) TimerEvent: {}
+[9.158993] (-) TimerEvent: {}
+[9.247936] (cv_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[9.251603] (cv_bridge) StdoutLine: {'line': b'creating cv_bridge.egg-info\n'}
+[9.252200] (cv_bridge) StdoutLine: {'line': b'writing cv_bridge.egg-info/PKG-INFO\n'}
+[9.252559] (cv_bridge) StdoutLine: {'line': b'writing dependency_links to cv_bridge.egg-info/dependency_links.txt\n'}
+[9.252939] (cv_bridge) StdoutLine: {'line': b'writing top-level names to cv_bridge.egg-info/top_level.txt\n'}
+[9.259165] (-) TimerEvent: {}
+[9.272626] (cv_bridge) StdoutLine: {'line': b"writing manifest file 'cv_bridge.egg-info/SOURCES.txt'\n"}
+[9.284618] (cv_bridge) StdoutLine: {'line': b"reading manifest file 'cv_bridge.egg-info/SOURCES.txt'\n"}
+[9.285711] (cv_bridge) StdoutLine: {'line': b"writing manifest file 'cv_bridge.egg-info/SOURCES.txt'\n"}
+[9.359449] (-) TimerEvent: {}
+[9.424374] (cv_bridge) StdoutLine: {'line': b'[ 27%] Built target ament_cmake_python_build_cv_bridge_egg\n'}
+[9.459646] (-) TimerEvent: {}
+[9.560612] (-) TimerEvent: {}
+[9.663080] (-) TimerEvent: {}
+[9.763975] (-) TimerEvent: {}
+[9.865043] (-) TimerEvent: {}
+[9.966135] (-) TimerEvent: {}
+[10.066887] (-) TimerEvent: {}
+[10.167609] (-) TimerEvent: {}
+[10.268340] (-) TimerEvent: {}
+[10.369091] (-) TimerEvent: {}
+[10.469826] (-) TimerEvent: {}
+[10.570557] (-) TimerEvent: {}
+[10.671313] (-) TimerEvent: {}
+[10.772461] (-) TimerEvent: {}
+[10.867515] (cv_bridge) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[10.872636] (-) TimerEvent: {}
+[10.943269] (cv_bridge) StdoutLine: {'line': b'[ 33%] Built target gtest_main\n'}
+[10.972846] (-) TimerEvent: {}
+[11.073594] (-) TimerEvent: {}
+[11.174665] (-) TimerEvent: {}
+[11.275442] (-) TimerEvent: {}
+[11.376208] (-) TimerEvent: {}
+[11.476940] (-) TimerEvent: {}
+[11.577700] (-) TimerEvent: {}
+[11.678732] (-) TimerEvent: {}
+[11.779830] (-) TimerEvent: {}
+[11.880592] (-) TimerEvent: {}
+[11.981356] (-) TimerEvent: {}
+[12.082080] (-) TimerEvent: {}
+[12.182818] (-) TimerEvent: {}
+[12.283500] (-) TimerEvent: {}
+[12.384205] (-) TimerEvent: {}
+[12.484919] (-) TimerEvent: {}
+[12.585635] (-) TimerEvent: {}
+[12.686378] (-) TimerEvent: {}
+[12.787103] (-) TimerEvent: {}
+[12.887828] (-) TimerEvent: {}
+[12.988535] (-) TimerEvent: {}
+[13.089248] (-) TimerEvent: {}
+[13.189995] (-) TimerEvent: {}
+[13.290740] (-) TimerEvent: {}
+[13.391478] (-) TimerEvent: {}
+[13.492217] (-) TimerEvent: {}
+[13.593494] (-) TimerEvent: {}
+[13.694369] (-) TimerEvent: {}
+[13.795138] (-) TimerEvent: {}
+[13.896081] (-) TimerEvent: {}
+[13.996744] (-) TimerEvent: {}
+[14.097413] (-) TimerEvent: {}
+[14.198092] (-) TimerEvent: {}
+[14.298759] (-) TimerEvent: {}
+[14.399464] (-) TimerEvent: {}
+[14.500125] (-) TimerEvent: {}
+[14.600808] (-) TimerEvent: {}
+[14.701475] (-) TimerEvent: {}
+[14.802163] (-) TimerEvent: {}
+[14.902855] (-) TimerEvent: {}
+[15.003566] (-) TimerEvent: {}
+[15.104237] (-) TimerEvent: {}
+[15.204914] (-) TimerEvent: {}
+[15.305592] (-) TimerEvent: {}
+[15.406269] (-) TimerEvent: {}
+[15.506963] (-) TimerEvent: {}
+[15.607776] (-) TimerEvent: {}
+[15.708607] (-) TimerEvent: {}
+[15.809271] (-) TimerEvent: {}
+[15.909900] (-) TimerEvent: {}
+[15.929727] (cv_bridge) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[16.010084] (-) TimerEvent: {}
+[16.080779] (cv_bridge) StdoutLine: {'line': b'[ 38%] Built target gtest\n'}
+[16.110301] (-) TimerEvent: {}
+[16.211044] (-) TimerEvent: {}
+[16.311708] (-) TimerEvent: {}
+[16.412348] (-) TimerEvent: {}
+[16.513029] (-) TimerEvent: {}
+[16.613667] (-) TimerEvent: {}
+[16.714326] (-) TimerEvent: {}
+[16.814971] (-) TimerEvent: {}
+[16.915647] (-) TimerEvent: {}
+[17.016287] (-) TimerEvent: {}
+[17.116996] (-) TimerEvent: {}
+[17.217715] (-) TimerEvent: {}
+[17.318367] (-) TimerEvent: {}
+[17.419039] (-) TimerEvent: {}
+[17.519711] (-) TimerEvent: {}
+[17.620354] (-) TimerEvent: {}
+[17.720992] (-) TimerEvent: {}
+[17.821644] (-) TimerEvent: {}
+[17.922313] (-) TimerEvent: {}
+[18.023097] (-) TimerEvent: {}
+[18.124285] (-) TimerEvent: {}
+[18.224934] (-) TimerEvent: {}
+[18.325557] (-) TimerEvent: {}
+[18.426197] (-) TimerEvent: {}
+[18.511193] (cv_bridge) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libcv_bridge.so\x1b[0m\n'}
+[18.526454] (-) TimerEvent: {}
+[18.627406] (-) TimerEvent: {}
+[18.728124] (-) TimerEvent: {}
+[18.828812] (-) TimerEvent: {}
+[18.929508] (-) TimerEvent: {}
+[18.932729] (cv_bridge) StdoutLine: {'line': b'[ 44%] Built target cv_bridge\n'}
+[18.978562] (cv_bridge) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o\x1b[0m\n'}
+[18.979188] (cv_bridge) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv4.cpp.o\x1b[0m\n'}
+[18.979431] (cv_bridge) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o\x1b[0m\n'}
+[18.979664] (cv_bridge) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o\x1b[0m\n'}
+[18.979828] (cv_bridge) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o\x1b[0m\n'}
+[18.988516] (cv_bridge) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o\x1b[0m\n'}
+[19.029689] (-) TimerEvent: {}
+[19.130374] (-) TimerEvent: {}
+[19.231064] (-) TimerEvent: {}
+[19.331768] (-) TimerEvent: {}
+[19.432428] (-) TimerEvent: {}
+[19.533143] (-) TimerEvent: {}
+[19.634161] (-) TimerEvent: {}
+[19.735262] (-) TimerEvent: {}
+[19.836398] (-) TimerEvent: {}
+[19.937402] (-) TimerEvent: {}
+[20.038485] (-) TimerEvent: {}
+[20.139579] (-) TimerEvent: {}
+[20.240624] (-) TimerEvent: {}
+[20.341341] (-) TimerEvent: {}
+[20.442096] (-) TimerEvent: {}
+[20.542859] (-) TimerEvent: {}
+[20.643673] (-) TimerEvent: {}
+[20.744597] (-) TimerEvent: {}
+[20.845424] (-) TimerEvent: {}
+[20.946303] (-) TimerEvent: {}
+[21.047271] (-) TimerEvent: {}
+[21.148174] (-) TimerEvent: {}
+[21.248970] (-) TimerEvent: {}
+[21.349773] (-) TimerEvent: {}
+[21.450587] (-) TimerEvent: {}
+[21.552059] (-) TimerEvent: {}
+[21.653528] (-) TimerEvent: {}
+[21.754422] (-) TimerEvent: {}
+[21.855286] (-) TimerEvent: {}
+[21.956085] (-) TimerEvent: {}
+[22.056864] (-) TimerEvent: {}
+[22.157619] (-) TimerEvent: {}
+[22.258421] (-) TimerEvent: {}
+[22.359262] (-) TimerEvent: {}
+[22.460084] (-) TimerEvent: {}
+[22.560858] (-) TimerEvent: {}
+[22.661677] (-) TimerEvent: {}
+[22.762450] (-) TimerEvent: {}
+[22.863181] (-) TimerEvent: {}
+[22.963942] (-) TimerEvent: {}
+[23.064652] (-) TimerEvent: {}
+[23.165370] (-) TimerEvent: {}
+[23.266148] (-) TimerEvent: {}
+[23.366891] (-) TimerEvent: {}
+[23.467623] (-) TimerEvent: {}
+[23.568343] (-) TimerEvent: {}
+[23.669064] (-) TimerEvent: {}
+[23.769768] (-) TimerEvent: {}
+[23.870625] (-) TimerEvent: {}
+[23.971403] (-) TimerEvent: {}
+[24.072143] (-) TimerEvent: {}
+[24.172910] (-) TimerEvent: {}
+[24.273679] (-) TimerEvent: {}
+[24.374500] (-) TimerEvent: {}
+[24.476552] (-) TimerEvent: {}
+[24.578005] (-) TimerEvent: {}
+[24.679156] (-) TimerEvent: {}
+[24.780262] (-) TimerEvent: {}
+[24.881353] (-) TimerEvent: {}
+[24.982468] (-) TimerEvent: {}
+[25.083637] (-) TimerEvent: {}
+[25.184786] (-) TimerEvent: {}
+[25.285899] (-) TimerEvent: {}
+[25.386971] (-) TimerEvent: {}
+[25.488064] (-) TimerEvent: {}
+[25.589164] (-) TimerEvent: {}
+[25.690252] (-) TimerEvent: {}
+[25.791382] (-) TimerEvent: {}
+[25.892478] (-) TimerEvent: {}
+[25.993549] (-) TimerEvent: {}
+[26.094635] (-) TimerEvent: {}
+[26.195489] (-) TimerEvent: {}
+[26.296468] (-) TimerEvent: {}
+[26.397177] (-) TimerEvent: {}
+[26.499127] (-) TimerEvent: {}
+[26.600755] (-) TimerEvent: {}
+[26.701813] (-) TimerEvent: {}
+[26.802861] (-) TimerEvent: {}
+[26.903961] (-) TimerEvent: {}
+[27.005048] (-) TimerEvent: {}
+[27.105764] (-) TimerEvent: {}
+[27.206531] (-) TimerEvent: {}
+[27.307286] (-) TimerEvent: {}
+[27.408018] (-) TimerEvent: {}
+[27.508884] (-) TimerEvent: {}
+[27.609620] (-) TimerEvent: {}
+[27.710380] (-) TimerEvent: {}
+[27.811146] (-) TimerEvent: {}
+[27.899237] (cv_bridge) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_dynamic_scaling.cpp.o\x1b[0m\n'}
+[27.900039] (cv_bridge) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o\x1b[0m\n'}
+[27.911653] (-) TimerEvent: {}
+[28.012445] (-) TimerEvent: {}
+[28.113538] (-) TimerEvent: {}
+[28.214605] (-) TimerEvent: {}
+[28.316015] (-) TimerEvent: {}
+[28.416779] (-) TimerEvent: {}
+[28.517528] (-) TimerEvent: {}
+[28.618233] (-) TimerEvent: {}
+[28.718949] (-) TimerEvent: {}
+[28.820040] (-) TimerEvent: {}
+[28.920792] (-) TimerEvent: {}
+[29.021525] (-) TimerEvent: {}
+[29.122244] (-) TimerEvent: {}
+[29.223010] (-) TimerEvent: {}
+[29.323945] (-) TimerEvent: {}
+[29.424654] (-) TimerEvent: {}
+[29.525459] (-) TimerEvent: {}
+[29.626200] (-) TimerEvent: {}
+[29.727022] (-) TimerEvent: {}
+[29.828591] (-) TimerEvent: {}
+[29.929324] (-) TimerEvent: {}
+[30.030048] (-) TimerEvent: {}
+[30.130737] (-) TimerEvent: {}
+[30.231478] (-) TimerEvent: {}
+[30.332201] (-) TimerEvent: {}
+[30.432919] (-) TimerEvent: {}
+[30.533605] (-) TimerEvent: {}
+[30.634331] (-) TimerEvent: {}
+[30.735156] (-) TimerEvent: {}
+[30.835929] (-) TimerEvent: {}
+[30.936676] (-) TimerEvent: {}
+[31.037377] (-) TimerEvent: {}
+[31.138077] (-) TimerEvent: {}
+[31.238810] (-) TimerEvent: {}
+[31.339514] (-) TimerEvent: {}
+[31.440246] (-) TimerEvent: {}
+[31.541006] (-) TimerEvent: {}
+[31.641716] (-) TimerEvent: {}
+[31.742479] (-) TimerEvent: {}
+[31.843678] (-) TimerEvent: {}
+[31.944439] (-) TimerEvent: {}
+[32.045146] (-) TimerEvent: {}
+[32.146645] (-) TimerEvent: {}
+[32.247474] (-) TimerEvent: {}
+[32.348204] (-) TimerEvent: {}
+[32.448928] (-) TimerEvent: {}
+[32.549688] (-) TimerEvent: {}
+[32.621059] (cv_bridge) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared module boost/cv_bridge_boost.so\x1b[0m\n'}
+[32.649883] (-) TimerEvent: {}
+[32.750584] (-) TimerEvent: {}
+[32.851477] (-) TimerEvent: {}
+[32.952180] (-) TimerEvent: {}
+[33.052886] (-) TimerEvent: {}
+[33.116662] (cv_bridge) StdoutLine: {'line': b'[ 94%] Built target cv_bridge_boost\n'}
+[33.153072] (-) TimerEvent: {}
+[33.253748] (-) TimerEvent: {}
+[33.354424] (-) TimerEvent: {}
+[33.455085] (-) TimerEvent: {}
+[33.555818] (-) TimerEvent: {}
+[33.656497] (-) TimerEvent: {}
+[33.757188] (-) TimerEvent: {}
+[33.857866] (-) TimerEvent: {}
+[33.958532] (-) TimerEvent: {}
+[34.059208] (-) TimerEvent: {}
+[34.159894] (-) TimerEvent: {}
+[34.260578] (-) TimerEvent: {}
+[34.361219] (-) TimerEvent: {}
+[34.461910] (-) TimerEvent: {}
+[34.562728] (-) TimerEvent: {}
+[34.663531] (-) TimerEvent: {}
+[34.764332] (-) TimerEvent: {}
+[34.865121] (-) TimerEvent: {}
+[34.965920] (-) TimerEvent: {}
+[35.066693] (-) TimerEvent: {}
+[35.167452] (-) TimerEvent: {}
+[35.268113] (-) TimerEvent: {}
+[35.368798] (-) TimerEvent: {}
+[35.469573] (-) TimerEvent: {}
+[35.487798] (cv_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cv_bridge-utest\x1b[0m\n'}
+[35.569752] (-) TimerEvent: {}
+[35.670457] (-) TimerEvent: {}
+[35.771281] (-) TimerEvent: {}
+[35.872132] (-) TimerEvent: {}
+[35.972956] (-) TimerEvent: {}
+[36.073748] (-) TimerEvent: {}
+[36.174542] (-) TimerEvent: {}
+[36.275414] (-) TimerEvent: {}
+[36.333718] (cv_bridge) StdoutLine: {'line': b'[100%] Built target cv_bridge-utest\n'}
+[36.367655] (cv_bridge) CommandEnded: {'returncode': 0}
+[36.375495] (-) TimerEvent: {}
+[36.424968] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'install'}
+[36.450771] (cv_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ethan/ros2_ws/build/cv_bridge'], 'cwd': '/home/ethan/ros2_ws/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ethan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/ethan'), ('OLDPWD', '/home/ethan/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ethan/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ethan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ethan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ethan-desktop:@/tmp/.ICE-unix/2527,unix/ethan-desktop:/tmp/.ICE-unix/2527'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/359488e6_c353_4826_8918_2d1d669c2e67'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ethan/ros2_ws/install/my_opencv_demo:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ethan/ros2_ws/build/cv_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ethan/ros2_ws/install/my_opencv_demo:/opt/ros/iron')]), 'shell': False}
+[36.474152] (cv_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.474795] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh\n'}
+[36.475215] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv\n'}
+[36.475610] (-) TimerEvent: {}
+[36.476019] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge-3.5.0-py3.10.egg-info\n'}
+[36.476486] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge-3.5.0-py3.10.egg-info/dependency_links.txt\n'}
+[36.476856] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge-3.5.0-py3.10.egg-info/PKG-INFO\n'}
+[36.477218] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge-3.5.0-py3.10.egg-info/SOURCES.txt\n'}
+[36.477552] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge-3.5.0-py3.10.egg-info/top_level.txt\n'}
+[36.477817] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge\n'}
+[36.478071] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge/core.py\n'}
+[36.478324] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge/__init__.py\n'}
+[36.561575] (cv_bridge) StdoutLine: {'line': b"Listing '/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge'...\n"}
+[36.561927] (cv_bridge) StdoutLine: {'line': b"Compiling '/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge/__init__.py'...\n"}
+[36.562195] (cv_bridge) StdoutLine: {'line': b"Compiling '/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge/core.py'...\n"}
+[36.573419] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/libcv_bridge.so\n'}
+[36.575749] (-) TimerEvent: {}
+[36.580334] (cv_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/ethan/ros2_ws/install/cv_bridge/lib/libcv_bridge.so" to ""\n'}
+[36.580951] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h\n'}
+[36.581842] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge/boost/cv_bridge_boost.so\n'}
+[36.587102] (cv_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge/boost/cv_bridge_boost.so" to ""\n'}
+[36.588016] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge\n'}
+[36.588349] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge\n'}
+[36.588574] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp\n'}
+[36.588871] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h\n'}
+[36.589133] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/visibility_control.h\n'}
+[36.589395] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h\n'}
+[36.589642] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp\n'}
+[36.589952] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.hpp\n'}
+[36.590575] (cv_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/lib/libcv_bridge.so\n'}
+[36.591394] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge\n'}
+[36.591877] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge\n'}
+[36.592415] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh\n'}
+[36.592668] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv\n'}
+[36.593057] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.sh\n'}
+[36.593379] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv\n'}
+[36.593757] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.bash\n'}
+[36.594124] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.sh\n'}
+[36.594463] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh\n'}
+[36.594764] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv\n'}
+[36.595183] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/package.dsv\n'}
+[36.595676] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge\n'}
+[36.596174] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake\n'}
+[36.596586] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake\n'}
+[36.597022] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake\n'}
+[36.597372] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[36.597725] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[36.598021] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake\n'}
+[36.598311] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake\n'}
+[36.598632] (cv_bridge) StdoutLine: {'line': b'-- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/package.xml\n'}
+[36.606487] (cv_bridge) CommandEnded: {'returncode': 0}
+[36.675912] (-) TimerEvent: {}
+[36.739414] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 0}
+[36.741771] (-) EventReactorShutdown: {}

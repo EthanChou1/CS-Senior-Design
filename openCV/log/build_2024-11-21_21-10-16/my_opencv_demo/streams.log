@@ -1,0 +1,42 @@
+[0.020s] Invoking command in '/home/ethan/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/ethan/ros2_ws/src/my_opencv_demo -DCMAKE_INSTALL_PREFIX=/home/ethan/ros2_ws/install/my_opencv_demo
+[0.044s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.368s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.446s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.485s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.793s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.795s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.008s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.313s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[1.369s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[1.627s] -- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+[1.670s] -- Found image_transport: 4.2.4 (/opt/ros/iron/share/image_transport/cmake)
+[1.740s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.897s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.898s] -- Configured cppcheck include dirs: 
+[1.898s] -- Configured cppcheck exclude dirs and/or files: 
+[1.898s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.898s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.898s] -- Added test 'lint_cmake' to check CMake code style
+[1.899s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.900s] -- Added test 'uncrustify' to check C / C++ code style
+[1.901s] -- Configured uncrustify additional arguments: 
+[1.901s] -- Added test 'xmllint' to check XML markup files
+[1.902s] -- Configuring done
+[1.945s] -- Generating done
+[1.949s] -- Build files have been written to: /home/ethan/ros2_ws/build/my_opencv_demo
+[1.972s] Invoked command in '/home/ethan/ros2_ws/build/my_opencv_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/ethan/ros2_ws/src/my_opencv_demo -DCMAKE_INSTALL_PREFIX=/home/ethan/ros2_ws/install/my_opencv_demo
+[1.976s] Invoking command in '/home/ethan/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6
+[2.073s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node[0m
+[2.073s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_subscriber[0m
+[2.121s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o[0m
+[2.122s] [ 75%] Built target minimal_opencv_ros2_node
+[10.905s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:[m[K In member function ‘[01m[Kvoid MinimalImageSubscriber::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[10.906s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:34:85:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kcv::aruco::Dictionary[m[K’ to non-scalar type ‘[01m[Kcv::Ptr<cv::aruco::Dictionary>[m[K’ requested
+[10.906s]    34 |       cv::Ptr<cv::aruco::Dictionary> dictionary = [01;31m[Kcv::aruco::getPredefinedDictionary(cv::aruco::DICT_4X4_50)[m[K;
+[10.907s]       |                                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.826s] gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o] Error 1
+[17.826s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/minimal_opencv_ros2_subscriber.dir/all] Error 2
+[17.827s] gmake: *** [Makefile:146: all] Error 2
+[17.835s] Invoked command in '/home/ethan/ros2_ws/build/my_opencv_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6

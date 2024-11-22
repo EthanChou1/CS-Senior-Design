@@ -1,0 +1,45 @@
+[1.426s] Invoking command in '/home/ethan/ros2_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/ethan/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethan/ros2_ws/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ethan/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ethan/ros2_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/ethan/ros2_ws/build/opencv_tests/build install --record /home/ethan/ros2_ws/build/opencv_tests/install.log --single-version-externally-managed install_data
+[1.944s] running egg_info
+[1.946s] creating ../../../build/opencv_tests/opencv_tests.egg-info
+[1.946s] writing ../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[1.947s] writing dependency_links to ../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[1.947s] writing entry points to ../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[1.948s] writing requirements to ../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[1.948s] writing top-level names to ../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[1.948s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.952s] reading manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.954s] writing manifest file '../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[1.954s] running build
+[1.954s] running build_py
+[1.955s] creating /home/ethan/ros2_ws/build/opencv_tests/build
+[1.955s] creating /home/ethan/ros2_ws/build/opencv_tests/build/lib
+[1.955s] creating /home/ethan/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[1.956s] copying opencv_tests/broadcast.py -> /home/ethan/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[1.956s] copying opencv_tests/__init__.py -> /home/ethan/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[1.956s] copying opencv_tests/rosfacedetect.py -> /home/ethan/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[1.956s] copying opencv_tests/source.py -> /home/ethan/ros2_ws/build/opencv_tests/build/lib/opencv_tests
+[1.956s] running install
+[1.957s] running install_lib
+[1.959s] creating /home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.959s] copying /home/ethan/ros2_ws/build/opencv_tests/build/lib/opencv_tests/broadcast.py -> /home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.960s] copying /home/ethan/ros2_ws/build/opencv_tests/build/lib/opencv_tests/__init__.py -> /home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.960s] copying /home/ethan/ros2_ws/build/opencv_tests/build/lib/opencv_tests/rosfacedetect.py -> /home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.960s] copying /home/ethan/ros2_ws/build/opencv_tests/build/lib/opencv_tests/source.py -> /home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests
+[1.961s] byte-compiling /home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/broadcast.py to broadcast.cpython-310.pyc
+[1.963s] byte-compiling /home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/__init__.py to __init__.cpython-310.pyc
+[1.963s] byte-compiling /home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/rosfacedetect.py to rosfacedetect.cpython-310.pyc
+[1.965s] byte-compiling /home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests/source.py to source.cpython-310.pyc
+[1.966s] running install_data
+[1.966s] creating /home/ethan/ros2_ws/install/opencv_tests/share/ament_index
+[1.966s] creating /home/ethan/ros2_ws/install/opencv_tests/share/ament_index/resource_index
+[1.967s] creating /home/ethan/ros2_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[1.967s] copying resource/opencv_tests -> /home/ethan/ros2_ws/install/opencv_tests/share/ament_index/resource_index/packages
+[1.967s] copying package.xml -> /home/ethan/ros2_ws/install/opencv_tests/share/opencv_tests
+[1.967s] running install_egg_info
+[1.971s] Copying ../../../build/opencv_tests/opencv_tests.egg-info to /home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages/opencv_tests-3.5.0-py3.10.egg-info
+[1.973s] running install_scripts
+[2.020s] Installing broadcast script to /home/ethan/ros2_ws/install/opencv_tests/lib/opencv_tests
+[2.020s] Installing rosfacedetect script to /home/ethan/ros2_ws/install/opencv_tests/lib/opencv_tests
+[2.020s] Installing source script to /home/ethan/ros2_ws/install/opencv_tests/lib/opencv_tests
+[2.021s] writing list of installed files to '/home/ethan/ros2_ws/build/opencv_tests/install.log'
+[2.098s] Invoked command in '/home/ethan/ros2_ws/src/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/ethan/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ethan/ros2_ws/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ethan/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ethan/ros2_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/opencv_tests build --build-base /home/ethan/ros2_ws/build/opencv_tests/build install --record /home/ethan/ros2_ws/build/opencv_tests/install.log --single-version-externally-managed install_data

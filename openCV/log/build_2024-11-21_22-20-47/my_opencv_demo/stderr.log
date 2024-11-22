@@ -1,0 +1,7 @@
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:[m[K In member function ‘[01m[Kbool MinimalImageSubscriber::loadCustomDictionary(const string&)[m[K’:
+[01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:32:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate[m[K’ is not a member of ‘[01m[Kcv::aruco::Dictionary[m[K’
+   32 |       custom_dictionary_ = cv::aruco::Dictionary::[01;31m[Kcreate[m[K(0, 4); // 4x4 bits
+      |                                                   [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/minimal_opencv_ros2_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

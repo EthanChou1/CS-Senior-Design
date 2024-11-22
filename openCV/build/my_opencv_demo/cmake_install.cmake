@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_opencv_demo/minimal_opencv_ros2_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_opencv_demo/minimal_opencv_ros2_node"
-         OLD_RPATH "/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:"
+         OLD_RPATH "/home/ethan/ros2_ws/install/cv_bridge/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/usr/local/lib:/opt/ros/iron/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_opencv_demo/minimal_opencv_ros2_node")
@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_opencv_demo/minimal_opencv_ros2_subscriber")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_opencv_demo/minimal_opencv_ros2_subscriber"
-         OLD_RPATH "/opt/ros/iron/lib:"
+         OLD_RPATH "/home/ethan/ros2_ws/install/cv_bridge/lib:/usr/local/lib:/opt/ros/iron/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_opencv_demo/minimal_opencv_ros2_subscriber")

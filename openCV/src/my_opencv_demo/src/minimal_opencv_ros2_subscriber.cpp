@@ -2,12 +2,12 @@
 #include "sensor_msgs/msg/image.hpp"
 #include <cv_bridge/cv_bridge.hpp>
 #include <opencv2/opencv.hpp>
-#include <sys/stat.h>
-#include <sys/types.h>
+#include <opencv2/aruco.hpp>
 
 class MinimalImageSubscriber : public rclcpp::Node {
 public:
-  MinimalImageSubscriber() : Node("image_subscriber"), count_(0) { // Initialize count_
+  MinimalImageSubscriber(int target_id)
+      : Node("image_subscriber"), target_id_(target_id), target_found_(false) {
     // Configure Reliable QoS
     rclcpp::QoS qos(rclcpp::KeepLast(10));
     qos.reliable();
@@ -21,6 +21,9 @@ public:
 private:
   void image_callback(const sensor_msgs::msg::Image::SharedPtr msg) {
     try {
+      // If target already found, skip further processing
+      if (target_found_) return;
+
       cv::Mat frame = cv_bridge::toCvCopy(msg, "bgr8")->image;
 
       if (frame.empty()) {
@@ -28,16 +31,28 @@ private:
         return;
       }
 
-      // Ensure the folder exists
-      std::string folder_path = "/home/ethan/saved_images/";
-      ensure_folder_exists(folder_path);
+      // Detect ArUco codes in the frame
+      std::vector<int> marker_ids;
+      std::vector<std::vector<cv::Point2f>> marker_corners;
+      cv::Ptr<cv::aruco::Dictionary> dictionary = cv::makePtr<cv::aruco::Dictionary>(
+          cv::aruco::getPredefinedDictionary(cv::aruco::DICT_4X4_50));
 
-      // Save the frame to the specified folder
-      std::string filename = folder_path + "received_frame_" + std::to_string(count_) + ".jpg";
-      cv::imwrite(filename, frame);
-      RCLCPP_INFO(this->get_logger(), "Frame %ld saved to '%s'", count_, filename.c_str());
-      count_++;
+      cv::aruco::detectMarkers(frame, dictionary, marker_corners, marker_ids);
 
+      if (!marker_ids.empty()) {
+        for (int id : marker_ids) {
+          if (id == target_id_) {
+            if (!target_found_) {
+              RCLCPP_INFO(this->get_logger(), "The correct ArUco code (ID: %d) has been identified.", id);
+              target_found_ = true; // Set the flag to true after detection
+            }
+          } else {
+            RCLCPP_WARN(this->get_logger(), "This is not the correct code (ID: %d).", id);
+          }
+        }
+      } else {
+        RCLCPP_INFO(this->get_logger(), "No ArUco markers detected in the frame.");
+      }
     } catch (const cv_bridge::Exception &e) {
       RCLCPP_ERROR(this->get_logger(), "cv_bridge exception: %s", e.what());
     } catch (const cv::Exception &e) {
@@ -45,27 +60,18 @@ private:
     }
   }
 
-  void ensure_folder_exists(const std::string &folder_path) {
-    struct stat info;
-    if (stat(folder_path.c_str(), &info) != 0) {
-      // Folder doesn't exist, create it
-      if (mkdir(folder_path.c_str(), 0777) == 0) {
-        RCLCPP_INFO(this->get_logger(), "Created folder: %s", folder_path.c_str());
-      } else {
-        RCLCPP_ERROR(this->get_logger(), "Failed to create folder: %s", folder_path.c_str());
-      }
-    } else if (!(info.st_mode & S_IFDIR)) {
-      RCLCPP_ERROR(this->get_logger(), "%s exists but is not a folder.", folder_path.c_str());
-    }
-  }
-
   rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;
-  size_t count_; // Add count_ as a member variable
+  int target_id_;      // The target ArUco marker ID
+  bool target_found_;  // Flag to indicate if the target has been found
 };
 
 int main(int argc, char *argv[]) {
   rclcpp::init(argc, argv);
-  auto node = std::make_shared<MinimalImageSubscriber>();
+
+  // Specify the target ArUco marker ID
+  int target_id = 17; // Change this to your desired ID
+  auto node = std::make_shared<MinimalImageSubscriber>(target_id);
+
   rclcpp::spin(node);
   rclcpp::shutdown();
   return 0;
