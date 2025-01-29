@@ -1,0 +1,4 @@
+source;share/Search_Protocol/local_setup.bash
+source;share/Search_Protocol/local_setup.dsv
+source;share/Search_Protocol/local_setup.sh
+source;share/Search_Protocol/local_setup.zsh

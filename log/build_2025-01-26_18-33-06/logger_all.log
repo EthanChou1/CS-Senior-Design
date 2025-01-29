@@ -1,0 +1,376 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e1c194253f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e1c195467d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e1c195467d0>>)
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.149s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/david/drone1_ws'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aruco_Detect) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aruco_Detect) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aruco_Detect) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aruco_Detect) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aruco_Detect) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aruco_Detect) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aruco_Detect) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aruco_Detect) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/Aruco_Detect) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Aruco_Detect' with type 'ros.ament_cmake' and name 'Aruco_Detect'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/Gimbal_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/Gimbal_Driver) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/Gimbal_Driver) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/Gimbal_Driver) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/Gimbal_Driver) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/Gimbal_Driver) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/Gimbal_Driver) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/Gimbal_Driver) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/Gimbal_Driver) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Gimbal_Driver' with type 'ros.ament_cmake' and name 'Gimbal_Driver'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Offboard_Control) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Offboard_Control) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Offboard_Control) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Offboard_Control) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Offboard_Control) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Offboard_Control) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Offboard_Control) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Offboard_Control) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/Offboard_Control) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Offboard_Control' with type 'ros.ament_cmake' and name 'Offboard_Control'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Search_Protocol) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Search_Protocol) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Search_Protocol) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Search_Protocol) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Search_Protocol) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Search_Protocol) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Search_Protocol) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Search_Protocol) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/Search_Protocol) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Search_Protocol' with type 'ros.ament_cmake' and name 'Search_Protocol'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/Uav_Ugv_Link) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/Uav_Ugv_Link) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/Uav_Ugv_Link) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/Uav_Ugv_Link) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/Uav_Ugv_Link) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/Uav_Ugv_Link) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/Uav_Ugv_Link) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/Uav_Ugv_Link) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/Uav_Ugv_Link) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Uav_Ugv_Link' with type 'ros.ament_cmake' and name 'Uav_Ugv_Link'
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.200s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 304 installed packages in /opt/ros/humble
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'Aruco_Detect' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'Aruco_Detect' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'Aruco_Detect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'Aruco_Detect' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'Aruco_Detect' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'Aruco_Detect' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'Aruco_Detect' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'Aruco_Detect' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'Aruco_Detect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'Aruco_Detect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/drone1_ws/build/Aruco_Detect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/drone1_ws/install/Aruco_Detect', 'merge_install': False, 'path': '/home/david/drone1_ws/src/Aruco_Detect', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Gimbal_Driver' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Gimbal_Driver' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Gimbal_Driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Gimbal_Driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Gimbal_Driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Gimbal_Driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Gimbal_Driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Gimbal_Driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Gimbal_Driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'Gimbal_Driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/drone1_ws/build/Gimbal_Driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/drone1_ws/install/Gimbal_Driver', 'merge_install': False, 'path': '/home/david/drone1_ws/src/Gimbal_Driver', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Offboard_Control' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Offboard_Control' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Offboard_Control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Offboard_Control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Offboard_Control' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Offboard_Control' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Offboard_Control' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Offboard_Control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'Offboard_Control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'Offboard_Control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/drone1_ws/build/Offboard_Control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/drone1_ws/install/Offboard_Control', 'merge_install': False, 'path': '/home/david/drone1_ws/src/Offboard_Control', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Search_Protocol' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Search_Protocol' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Search_Protocol' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Search_Protocol' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Search_Protocol' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Search_Protocol' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Search_Protocol' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Search_Protocol' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Search_Protocol' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'Search_Protocol' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/drone1_ws/build/Search_Protocol', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/drone1_ws/install/Search_Protocol', 'merge_install': False, 'path': '/home/david/drone1_ws/src/Search_Protocol', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Uav_Ugv_Link' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Uav_Ugv_Link' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Uav_Ugv_Link' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Uav_Ugv_Link' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Uav_Ugv_Link' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Uav_Ugv_Link' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'Uav_Ugv_Link' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'Uav_Ugv_Link' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'Uav_Ugv_Link' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'Uav_Ugv_Link' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/drone1_ws/build/Uav_Ugv_Link', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/drone1_ws/install/Uav_Ugv_Link', 'merge_install': False, 'path': '/home/david/drone1_ws/src/Uav_Ugv_Link', 'symlink_install': False, 'test_result_base': None}
+[0.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/drone1_ws/src/Aruco_Detect' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/drone1_ws/src/Aruco_Detect'
+[0.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/drone1_ws/src/Gimbal_Driver' with build type 'ament_cmake'
+[0.256s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/drone1_ws/src/Gimbal_Driver'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/drone1_ws/src/Offboard_Control' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/drone1_ws/src/Offboard_Control'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/drone1_ws/src/Search_Protocol' with build type 'ament_cmake'
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/drone1_ws/src/Search_Protocol'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/drone1_ws/src/Uav_Ugv_Link' with build type 'ament_cmake'
+[0.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/drone1_ws/src/Uav_Ugv_Link'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/drone1_ws/build/Aruco_Detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Aruco_Detect -- -j8 -l8
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/drone1_ws/build/Gimbal_Driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Gimbal_Driver -- -j8 -l8
+[0.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/drone1_ws/build/Offboard_Control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Offboard_Control -- -j8 -l8
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/drone1_ws/build/Search_Protocol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Search_Protocol -- -j8 -l8
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/drone1_ws/build/Uav_Ugv_Link': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Uav_Ugv_Link -- -j8 -l8
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/drone1_ws/build/Gimbal_Driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Gimbal_Driver -- -j8 -l8
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/drone1_ws/build/Gimbal_Driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Gimbal_Driver
+[0.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/drone1_ws/build/Uav_Ugv_Link' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Uav_Ugv_Link -- -j8 -l8
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/drone1_ws/build/Uav_Ugv_Link': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Uav_Ugv_Link
+[0.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/drone1_ws/build/Aruco_Detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Aruco_Detect -- -j8 -l8
+[0.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/drone1_ws/build/Aruco_Detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Aruco_Detect
+[0.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/drone1_ws/build/Search_Protocol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Search_Protocol -- -j8 -l8
+[0.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/drone1_ws/build/Search_Protocol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Search_Protocol
+[0.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Gimbal_Driver)
+[0.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/drone1_ws/build/Gimbal_Driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Gimbal_Driver
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver' for CMake module files
+[0.403s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver' for CMake config files
+[0.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('Gimbal_Driver', 'cmake_prefix_path')
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/hook/cmake_prefix_path.ps1'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/hook/cmake_prefix_path.dsv'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/hook/cmake_prefix_path.sh'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver/lib'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver/bin'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver/lib/pkgconfig/Gimbal_Driver.pc'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver/lib/python3.10/site-packages'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver/bin'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.ps1'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.dsv'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.sh'
+[0.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.bash'
+[0.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.zsh'
+[0.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/drone1_ws/install/Gimbal_Driver/share/colcon-core/packages/Gimbal_Driver)
+[0.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Gimbal_Driver)
+[0.411s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver' for CMake module files
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver' for CMake config files
+[0.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('Gimbal_Driver', 'cmake_prefix_path')
+[0.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/hook/cmake_prefix_path.ps1'
+[0.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/hook/cmake_prefix_path.dsv'
+[0.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/hook/cmake_prefix_path.sh'
+[0.414s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver/lib'
+[0.414s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver/bin'
+[0.414s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver/lib/pkgconfig/Gimbal_Driver.pc'
+[0.414s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver/lib/python3.10/site-packages'
+[0.415s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Gimbal_Driver/bin'
+[0.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.ps1'
+[0.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.dsv'
+[0.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.sh'
+[0.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.bash'
+[0.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.zsh'
+[0.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/drone1_ws/install/Gimbal_Driver/share/colcon-core/packages/Gimbal_Driver)
+[0.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Uav_Ugv_Link)
+[0.420s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link' for CMake module files
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/drone1_ws/build/Uav_Ugv_Link' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Uav_Ugv_Link
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link' for CMake config files
+[0.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('Uav_Ugv_Link', 'cmake_prefix_path')
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/hook/cmake_prefix_path.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/hook/cmake_prefix_path.dsv'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/hook/cmake_prefix_path.sh'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link/lib'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link/bin'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link/lib/pkgconfig/Uav_Ugv_Link.pc'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link/lib/python3.10/site-packages'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link/bin'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/package.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/package.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/package.sh'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/package.bash'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/package.zsh'
+[0.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/drone1_ws/install/Uav_Ugv_Link/share/colcon-core/packages/Uav_Ugv_Link)
+[0.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Uav_Ugv_Link)
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link' for CMake module files
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link' for CMake config files
+[0.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('Uav_Ugv_Link', 'cmake_prefix_path')
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/hook/cmake_prefix_path.ps1'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/hook/cmake_prefix_path.dsv'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/hook/cmake_prefix_path.sh'
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link/lib'
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link/bin'
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link/lib/pkgconfig/Uav_Ugv_Link.pc'
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link/lib/python3.10/site-packages'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Uav_Ugv_Link/bin'
+[0.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/package.ps1'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/package.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/package.sh'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/package.bash'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Uav_Ugv_Link/share/Uav_Ugv_Link/package.zsh'
+[0.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/drone1_ws/install/Uav_Ugv_Link/share/colcon-core/packages/Uav_Ugv_Link)
+[0.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Search_Protocol)
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol' for CMake module files
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol' for CMake config files
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/drone1_ws/build/Search_Protocol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Search_Protocol
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('Search_Protocol', 'cmake_prefix_path')
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/hook/cmake_prefix_path.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/hook/cmake_prefix_path.dsv'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/hook/cmake_prefix_path.sh'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol/lib'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol/bin'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol/lib/pkgconfig/Search_Protocol.pc'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol/lib/python3.10/site-packages'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol/bin'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.sh'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.bash'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.zsh'
+[0.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/drone1_ws/install/Search_Protocol/share/colcon-core/packages/Search_Protocol)
+[0.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Search_Protocol)
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol' for CMake module files
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol' for CMake config files
+[0.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('Search_Protocol', 'cmake_prefix_path')
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/hook/cmake_prefix_path.ps1'
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/hook/cmake_prefix_path.dsv'
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/hook/cmake_prefix_path.sh'
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol/lib'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol/bin'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol/lib/pkgconfig/Search_Protocol.pc'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol/lib/python3.10/site-packages'
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Search_Protocol/bin'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.ps1'
+[0.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.dsv'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.sh'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.bash'
+[0.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.zsh'
+[0.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/drone1_ws/install/Search_Protocol/share/colcon-core/packages/Search_Protocol)
+[0.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Aruco_Detect)
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect' for CMake module files
+[0.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/drone1_ws/build/Aruco_Detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Aruco_Detect
+[0.451s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect' for CMake config files
+[0.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('Aruco_Detect', 'cmake_prefix_path')
+[0.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/hook/cmake_prefix_path.ps1'
+[0.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/hook/cmake_prefix_path.dsv'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/hook/cmake_prefix_path.sh'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect/lib'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect/bin'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect/lib/pkgconfig/Aruco_Detect.pc'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect/lib/python3.10/site-packages'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect/bin'
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.ps1'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.dsv'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.sh'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.bash'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.zsh'
+[0.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/drone1_ws/install/Aruco_Detect/share/colcon-core/packages/Aruco_Detect)
+[0.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Aruco_Detect)
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect' for CMake module files
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect' for CMake config files
+[0.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('Aruco_Detect', 'cmake_prefix_path')
+[0.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/hook/cmake_prefix_path.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/hook/cmake_prefix_path.dsv'
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/hook/cmake_prefix_path.sh'
+[0.460s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect/lib'
+[0.460s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect/bin'
+[0.460s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect/lib/pkgconfig/Aruco_Detect.pc'
+[0.460s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect/lib/python3.10/site-packages'
+[0.460s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Aruco_Detect/bin'
+[0.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.ps1'
+[0.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.sh'
+[0.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.bash'
+[0.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.zsh'
+[0.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/drone1_ws/install/Aruco_Detect/share/colcon-core/packages/Aruco_Detect)
+[3.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Offboard_Control)
+[3.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/drone1_ws/build/Offboard_Control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Offboard_Control -- -j8 -l8
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Offboard_Control' for CMake module files
+[3.600s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Offboard_Control' for CMake config files
+[3.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('Offboard_Control', 'cmake_prefix_path')
+[3.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/hook/cmake_prefix_path.ps1'
+[3.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/hook/cmake_prefix_path.dsv'
+[3.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/hook/cmake_prefix_path.sh'
+[3.602s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Offboard_Control/lib'
+[3.602s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Offboard_Control/bin'
+[3.602s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Offboard_Control/lib/pkgconfig/Offboard_Control.pc'
+[3.603s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Offboard_Control/lib/python3.10/site-packages'
+[3.603s] Level 1:colcon.colcon_core.environment:checking '/home/david/drone1_ws/install/Offboard_Control/bin'
+[3.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.ps1'
+[3.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.dsv'
+[3.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.sh'
+[3.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.bash'
+[3.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.zsh'
+[3.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/drone1_ws/install/Offboard_Control/share/colcon-core/packages/Offboard_Control)
+[3.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.617s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.624s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.624s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.635s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.636s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/drone1_ws/install/local_setup.ps1'
+[3.637s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/drone1_ws/install/_local_setup_util_ps1.py'
+[3.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/drone1_ws/install/setup.ps1'
+[3.640s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/drone1_ws/install/local_setup.sh'
+[3.641s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/drone1_ws/install/_local_setup_util_sh.py'
+[3.642s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/drone1_ws/install/setup.sh'
+[3.643s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/drone1_ws/install/local_setup.bash'
+[3.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/drone1_ws/install/setup.bash'
+[3.644s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/drone1_ws/install/local_setup.zsh'
+[3.645s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/drone1_ws/install/setup.zsh'

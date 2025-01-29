@@ -1,0 +1,13 @@
+[01m[K/home/david/drone1_ws/src/Offboard_Control/src/Autonomous_Control.cpp:6:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+    6 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/david/drone1_ws/src/Offboard_Control/src/Autonomous_Control.cpp:16:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   16 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/david/drone1_ws/src/Offboard_Control/src/Autonomous_Control.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[KtimerBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KTimerBase[m[K’?
+   23 |     rclcpp::[01;31m[KtimerBase[m[K::SharedPtr timer
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[KTimerBase[m[K
+gmake[2]: *** [CMakeFiles/AutonomousNode.dir/build.make:76: CMakeFiles/AutonomousNode.dir/src/Autonomous_Control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/AutonomousNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

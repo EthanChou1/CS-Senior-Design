@@ -1,0 +1,22 @@
+[0.021s] Invoking command in '/home/david/drone1_ws/build/Gimbal_Driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Gimbal_Driver -- -j8 -l8
+[0.084s] [100%] Built target GimbalNode
+[0.103s] Invoked command in '/home/david/drone1_ws/build/Gimbal_Driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Gimbal_Driver -- -j8 -l8
+[0.116s] Invoking command in '/home/david/drone1_ws/build/Gimbal_Driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Gimbal_Driver
+[0.127s] -- Install configuration: ""
+[0.127s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/lib/Gimbal_Driver/GimbalNode
+[0.127s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/ament_index/resource_index/package_run_dependencies/Gimbal_Driver
+[0.127s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/ament_index/resource_index/parent_prefix_path/Gimbal_Driver
+[0.127s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/environment/ament_prefix_path.sh
+[0.128s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/environment/ament_prefix_path.dsv
+[0.128s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/environment/path.sh
+[0.128s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/environment/path.dsv
+[0.128s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/local_setup.bash
+[0.129s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/local_setup.sh
+[0.129s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/local_setup.zsh
+[0.129s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/local_setup.dsv
+[0.130s] -- Installing: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.dsv
+[0.130s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/ament_index/resource_index/packages/Gimbal_Driver
+[0.130s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/cmake/Gimbal_DriverConfig.cmake
+[0.130s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/cmake/Gimbal_DriverConfig-version.cmake
+[0.130s] -- Up-to-date: /home/david/drone1_ws/install/Gimbal_Driver/share/Gimbal_Driver/package.xml
+[0.139s] Invoked command in '/home/david/drone1_ws/build/Gimbal_Driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Gimbal_Driver

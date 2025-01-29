@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/AutonomousNode.dir/src/Autonomous_Control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable AutonomousNode[0m
+[100%] Built target AutonomousNode
+-- Install configuration: ""
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/lib/Offboard_Control/AutonomousNode
+-- Set runtime path of "/home/david/drone1_ws/install/Offboard_Control/lib/Offboard_Control/AutonomousNode" to ""
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/ament_index/resource_index/package_run_dependencies/Offboard_Control
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/ament_index/resource_index/parent_prefix_path/Offboard_Control
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/ament_prefix_path.sh
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/ament_prefix_path.dsv
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/path.sh
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/path.dsv
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.bash
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.sh
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.zsh
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.dsv
+-- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.dsv
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/ament_index/resource_index/packages/Offboard_Control
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/cmake/Offboard_ControlConfig.cmake
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/cmake/Offboard_ControlConfig-version.cmake
+-- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.xml

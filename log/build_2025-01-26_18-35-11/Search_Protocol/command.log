@@ -1,0 +1,4 @@
+Invoking command in '/home/david/drone1_ws/build/Search_Protocol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Search_Protocol -- -j8 -l8
+Invoked command in '/home/david/drone1_ws/build/Search_Protocol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Search_Protocol -- -j8 -l8
+Invoking command in '/home/david/drone1_ws/build/Search_Protocol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Search_Protocol
+Invoked command in '/home/david/drone1_ws/build/Search_Protocol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Search_Protocol

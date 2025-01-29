@@ -1,0 +1,10 @@
+/home/david/drone1_ws/build/Aruco_Detect/CMakeFiles/uninstall.dir
+/home/david/drone1_ws/build/Aruco_Detect/CMakeFiles/Aruco_Detect_uninstall.dir
+/home/david/drone1_ws/build/Aruco_Detect/CMakeFiles/ArucoNode.dir
+/home/david/drone1_ws/build/Aruco_Detect/CMakeFiles/test.dir
+/home/david/drone1_ws/build/Aruco_Detect/CMakeFiles/edit_cache.dir
+/home/david/drone1_ws/build/Aruco_Detect/CMakeFiles/rebuild_cache.dir
+/home/david/drone1_ws/build/Aruco_Detect/CMakeFiles/list_install_components.dir
+/home/david/drone1_ws/build/Aruco_Detect/CMakeFiles/install.dir
+/home/david/drone1_ws/build/Aruco_Detect/CMakeFiles/install/local.dir
+/home/david/drone1_ws/build/Aruco_Detect/CMakeFiles/install/strip.dir

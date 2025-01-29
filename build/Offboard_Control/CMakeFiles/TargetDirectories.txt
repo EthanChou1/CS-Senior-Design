@@ -1,0 +1,10 @@
+/home/david/drone1_ws/build/Offboard_Control/CMakeFiles/uninstall.dir
+/home/david/drone1_ws/build/Offboard_Control/CMakeFiles/Offboard_Control_uninstall.dir
+/home/david/drone1_ws/build/Offboard_Control/CMakeFiles/AutonomousNode.dir
+/home/david/drone1_ws/build/Offboard_Control/CMakeFiles/test.dir
+/home/david/drone1_ws/build/Offboard_Control/CMakeFiles/edit_cache.dir
+/home/david/drone1_ws/build/Offboard_Control/CMakeFiles/rebuild_cache.dir
+/home/david/drone1_ws/build/Offboard_Control/CMakeFiles/list_install_components.dir
+/home/david/drone1_ws/build/Offboard_Control/CMakeFiles/install.dir
+/home/david/drone1_ws/build/Offboard_Control/CMakeFiles/install/local.dir
+/home/david/drone1_ws/build/Offboard_Control/CMakeFiles/install/strip.dir

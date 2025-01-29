@@ -1,0 +1,16 @@
+/home/david/drone1_ws/install/Offboard_Control/lib/Offboard_Control/AutonomousNode
+/home/david/drone1_ws/install/Offboard_Control/share/ament_index/resource_index/package_run_dependencies/Offboard_Control
+/home/david/drone1_ws/install/Offboard_Control/share/ament_index/resource_index/parent_prefix_path/Offboard_Control
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/ament_prefix_path.sh
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/ament_prefix_path.dsv
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/path.sh
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/path.dsv
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.bash
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.sh
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.zsh
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.dsv
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.dsv
+/home/david/drone1_ws/install/Offboard_Control/share/ament_index/resource_index/packages/Offboard_Control
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/cmake/Offboard_ControlConfig.cmake
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/cmake/Offboard_ControlConfig-version.cmake
+/home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.xml

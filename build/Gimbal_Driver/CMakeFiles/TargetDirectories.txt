@@ -1,0 +1,10 @@
+/home/david/drone1_ws/build/Gimbal_Driver/CMakeFiles/uninstall.dir
+/home/david/drone1_ws/build/Gimbal_Driver/CMakeFiles/Gimbal_Driver_uninstall.dir
+/home/david/drone1_ws/build/Gimbal_Driver/CMakeFiles/GimbalNode.dir
+/home/david/drone1_ws/build/Gimbal_Driver/CMakeFiles/test.dir
+/home/david/drone1_ws/build/Gimbal_Driver/CMakeFiles/edit_cache.dir
+/home/david/drone1_ws/build/Gimbal_Driver/CMakeFiles/rebuild_cache.dir
+/home/david/drone1_ws/build/Gimbal_Driver/CMakeFiles/list_install_components.dir
+/home/david/drone1_ws/build/Gimbal_Driver/CMakeFiles/install.dir
+/home/david/drone1_ws/build/Gimbal_Driver/CMakeFiles/install/local.dir
+/home/david/drone1_ws/build/Gimbal_Driver/CMakeFiles/install/strip.dir

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ArucoNode.dir/src/Aruco_Detection.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ArucoNode[0m
+[100%] Built target ArucoNode
+-- Install configuration: ""
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/lib/Aruco_Detect/ArucoNode
+-- Set runtime path of "/home/david/drone1_ws/install/Aruco_Detect/lib/Aruco_Detect/ArucoNode" to ""
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/ament_index/resource_index/package_run_dependencies/Aruco_Detect
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/ament_index/resource_index/parent_prefix_path/Aruco_Detect
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/environment/ament_prefix_path.sh
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/environment/path.sh
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/environment/path.dsv
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/local_setup.bash
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/local_setup.sh
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/local_setup.zsh
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/local_setup.dsv
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.dsv
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/ament_index/resource_index/packages/Aruco_Detect
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/cmake/Aruco_DetectConfig.cmake
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/cmake/Aruco_DetectConfig-version.cmake
+-- Up-to-date: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.xml

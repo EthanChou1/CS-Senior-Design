@@ -1,0 +1,4 @@
+Invoking command in '/home/david/drone1_ws/build/Offboard_Control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/david/drone1_ws/src/Offboard_Control -DCMAKE_INSTALL_PREFIX=/home/david/drone1_ws/install/Offboard_Control
+Invoked command in '/home/david/drone1_ws/build/Offboard_Control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/david/drone1_ws/src/Offboard_Control -DCMAKE_INSTALL_PREFIX=/home/david/drone1_ws/install/Offboard_Control
+Invoking command in '/home/david/drone1_ws/build/Offboard_Control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Offboard_Control -- -j8 -l8
+Invoked command in '/home/david/drone1_ws/build/Offboard_Control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Offboard_Control -- -j8 -l8

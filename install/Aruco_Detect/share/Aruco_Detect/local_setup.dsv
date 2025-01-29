@@ -1,0 +1,2 @@
+source;share/Aruco_Detect/environment/ament_prefix_path.sh
+source;share/Aruco_Detect/environment/path.sh

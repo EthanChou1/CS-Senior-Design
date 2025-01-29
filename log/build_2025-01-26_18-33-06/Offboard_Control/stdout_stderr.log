@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target AutonomousNode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/AutonomousNode.dir/src/Autonomous_Control.cpp.o[0m
+[01m[K/home/david/drone1_ws/src/Offboard_Control/src/Autonomous_Control.cpp:6:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+    6 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/david/drone1_ws/src/Offboard_Control/src/Autonomous_Control.cpp:16:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   16 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/AutonomousNode.dir/build.make:76: CMakeFiles/AutonomousNode.dir/src/Autonomous_Control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/AutonomousNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+source;share/Uav_Ugv_Link/local_setup.bash
+source;share/Uav_Ugv_Link/local_setup.dsv
+source;share/Uav_Ugv_Link/local_setup.sh
+source;share/Uav_Ugv_Link/local_setup.zsh

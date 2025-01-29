@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target ArucoNode[0m
+[100%] Built target ArucoNode
+-- Install configuration: ""
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/lib/Aruco_Detect/ArucoNode
+-- Set runtime path of "/home/david/drone1_ws/install/Aruco_Detect/lib/Aruco_Detect/ArucoNode" to ""
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/ament_index/resource_index/package_run_dependencies/Aruco_Detect
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/ament_index/resource_index/parent_prefix_path/Aruco_Detect
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/environment/ament_prefix_path.sh
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/environment/ament_prefix_path.dsv
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/environment/path.sh
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/environment/path.dsv
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/local_setup.bash
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/local_setup.sh
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/local_setup.zsh
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/local_setup.dsv
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.dsv
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/ament_index/resource_index/packages/Aruco_Detect
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/cmake/Aruco_DetectConfig.cmake
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/cmake/Aruco_DetectConfig-version.cmake
+-- Installing: /home/david/drone1_ws/install/Aruco_Detect/share/Aruco_Detect/package.xml

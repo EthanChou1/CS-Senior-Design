@@ -1,0 +1,24 @@
+[0.021s] Invoking command in '/home/david/drone1_ws/build/Search_Protocol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Search_Protocol -- -j8 -l8
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target SearchNode[0m
+[0.108s] [100%] Built target SearchNode
+[0.128s] Invoked command in '/home/david/drone1_ws/build/Search_Protocol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Search_Protocol -- -j8 -l8
+[0.132s] Invoking command in '/home/david/drone1_ws/build/Search_Protocol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Search_Protocol
+[0.149s] -- Install configuration: ""
+[0.150s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/lib/Search_Protocol/SearchNode
+[0.151s] -- Set runtime path of "/home/david/drone1_ws/install/Search_Protocol/lib/Search_Protocol/SearchNode" to ""
+[0.151s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/ament_index/resource_index/package_run_dependencies/Search_Protocol
+[0.152s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/ament_index/resource_index/parent_prefix_path/Search_Protocol
+[0.152s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/environment/ament_prefix_path.sh
+[0.153s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/environment/ament_prefix_path.dsv
+[0.153s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/environment/path.sh
+[0.154s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/environment/path.dsv
+[0.155s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/local_setup.bash
+[0.155s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/local_setup.sh
+[0.155s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/local_setup.zsh
+[0.156s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/local_setup.dsv
+[0.156s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.dsv
+[0.157s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/ament_index/resource_index/packages/Search_Protocol
+[0.157s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/cmake/Search_ProtocolConfig.cmake
+[0.158s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/cmake/Search_ProtocolConfig-version.cmake
+[0.158s] -- Installing: /home/david/drone1_ws/install/Search_Protocol/share/Search_Protocol/package.xml
+[0.198s] Invoked command in '/home/david/drone1_ws/build/Search_Protocol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Search_Protocol

@@ -1,0 +1,4 @@
+Invoking command in '/home/david/drone1_ws/build/Gimbal_Driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Gimbal_Driver -- -j8 -l8
+Invoked command in '/home/david/drone1_ws/build/Gimbal_Driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Gimbal_Driver -- -j8 -l8
+Invoking command in '/home/david/drone1_ws/build/Gimbal_Driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Gimbal_Driver
+Invoked command in '/home/david/drone1_ws/build/Gimbal_Driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Gimbal_Driver

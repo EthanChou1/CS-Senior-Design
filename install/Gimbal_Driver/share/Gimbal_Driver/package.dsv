@@ -1,0 +1,8 @@
+source;share/Gimbal_Driver/hook/cmake_prefix_path.ps1
+source;share/Gimbal_Driver/hook/cmake_prefix_path.dsv
+source;share/Gimbal_Driver/hook/cmake_prefix_path.sh
+source;share/Gimbal_Driver/local_setup.bash
+source;share/Gimbal_Driver/local_setup.dsv
+source;share/Gimbal_Driver/local_setup.ps1
+source;share/Gimbal_Driver/local_setup.sh
+source;share/Gimbal_Driver/local_setup.zsh

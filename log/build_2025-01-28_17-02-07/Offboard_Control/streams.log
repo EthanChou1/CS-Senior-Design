@@ -1,0 +1,26 @@
+[0.033s] Invoking command in '/home/david/drone1_ws/build/Offboard_Control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Tst_ros2_px4_offboard/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Offboard_Control -- -j8 -l8
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target AutonomousNode[0m
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/AutonomousNode.dir/src/Autonomous_Control.cpp.o[0m
+[3.740s] [100%] [32m[1mLinking CXX executable AutonomousNode[0m
+[3.887s] [100%] Built target AutonomousNode
+[3.903s] Invoked command in '/home/david/drone1_ws/build/Offboard_Control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Tst_ros2_px4_offboard/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Offboard_Control -- -j8 -l8
+[3.905s] Invoking command in '/home/david/drone1_ws/build/Offboard_Control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Tst_ros2_px4_offboard/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Offboard_Control
+[3.913s] -- Install configuration: ""
+[3.913s] -- Installing: /home/david/drone1_ws/install/Offboard_Control/lib/Offboard_Control/AutonomousNode
+[3.914s] -- Set runtime path of "/home/david/drone1_ws/install/Offboard_Control/lib/Offboard_Control/AutonomousNode" to ""
+[3.915s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/ament_index/resource_index/package_run_dependencies/Offboard_Control
+[3.915s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/ament_index/resource_index/parent_prefix_path/Offboard_Control
+[3.915s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/ament_prefix_path.sh
+[3.916s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/ament_prefix_path.dsv
+[3.916s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/path.sh
+[3.917s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/environment/path.dsv
+[3.917s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.bash
+[3.917s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.sh
+[3.917s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.zsh
+[3.918s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/local_setup.dsv
+[3.918s] -- Installing: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.dsv
+[3.919s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/ament_index/resource_index/packages/Offboard_Control
+[3.920s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/cmake/Offboard_ControlConfig.cmake
+[3.920s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/cmake/Offboard_ControlConfig-version.cmake
+[3.921s] -- Up-to-date: /home/david/drone1_ws/install/Offboard_Control/share/Offboard_Control/package.xml
+[3.923s] Invoked command in '/home/david/drone1_ws/build/Offboard_Control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/Tst_ros2_px4_offboard/install/px4_offboard:/opt/ros/humble /usr/bin/cmake --install /home/david/drone1_ws/build/Offboard_Control
