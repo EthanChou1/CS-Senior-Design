@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:32:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "​install".
+
+-- Configuring incomplete, errors occurred!
+[0m

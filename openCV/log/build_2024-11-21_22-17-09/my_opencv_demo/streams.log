@@ -1,0 +1,48 @@
+[0.022s] Invoking command in '/home/ethan/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=/home/ethan/ros2_ws/install/cv_bridge:/home/ethan/ros2_ws/install/vision_opencv:/home/ethan/ros2_ws/install/my_opencv_demo:/home/ethan/ros2_ws/install/image_geometry:/home/ethan/ros2_ws/install/opencv_tests:/opt/ros/iron LD_LIBRARY_PATH=/home/ethan/ros2_ws/install/cv_bridge/lib:/home/ethan/ros2_ws/install/image_geometry/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages:/home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_subscriber[0m
+[0.152s] [ 50%] Built target minimal_opencv_ros2_node
+[0.162s] [ 75%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o[0m
+[9.626s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:[m[K In member function ‘[01m[Kbool MinimalImageSubscriber::loadCustomDictionary(const string&)[m[K’:
+[9.626s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:32:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate[m[K’ is not a member of ‘[01m[Kcv::aruco::Dictionary[m[K’
+[9.626s]    32 |         custom_dictionary_ = cv::aruco::Dictionary::[01;31m[Kcreate[m[K(0, 4); // 0 markers initially, 4x4 bits
+[9.627s]       |                                                     [01;31m[K^~~~~~[m[K
+[9.628s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:43:82:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kint[m[K’
+[9.628s]    43 |                     if (cv::aruco::Dictionary::getBitsFromByteList(marker_image, [01;31m[Kmarker_bits[m[K)) {
+[9.628s]       |                                                                                  [01;31m[K^~~~~~~~~~~[m[K
+[9.628s]       |                                                                                  [01;31m[K|[m[K
+[9.628s]       |                                                                                  [01;31m[Kcv::Mat[m[K
+[9.628s] In file included from [01m[K/usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp:7[m[K,
+[9.629s]                  from [01m[K/usr/local/include/opencv4/opencv2/objdetect.hpp:48[m[K,
+[9.629s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:80[m[K,
+[9.629s]                  from [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:4[m[K:
+[9.629s] [01m[K/usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp:87:69:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kstatic cv::Mat cv::aruco::Dictionary::getBitsFromByteList(const cv::Mat&, int)[m[K’
+[9.629s]    87 |     CV_WRAP static Mat getBitsFromByteList(const Mat &byteList, [01;36m[Kint markerSize[m[K);
+[9.629s]       |                                                                 [01;36m[K~~~~^~~~~~~~~~[m[K
+[9.629s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:45:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::aruco::Dictionary[m[K’ has no member named ‘[01m[KmarkerCount[m[K’
+[9.629s]    45 |                         custom_dictionary_->[01;31m[KmarkerCount[m[K++;
+[9.629s]       |                                             [01;31m[K^~~~~~~~~~~[m[K
+[9.630s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:57:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::aruco::Dictionary[m[K’ has no member named ‘[01m[KmarkerCount[m[K’
+[9.630s]    57 |         if (custom_dictionary_->[01;31m[KmarkerCount[m[K > 0) {
+[9.630s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[9.631s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.631s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[9.631s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.631s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.632s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.632s]                  from [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:1[m[K:
+[9.632s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:59:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv::aruco::Dictionary[m[K’ has no member named ‘[01m[KmarkerCount[m[K’
+[9.633s]    59 |                         custom_dictionary_->[01;31m[KmarkerCount[m[K);
+[9.633s]       |                                             [01;31m[K^~~~~~~~~~~[m[K
+[16.448s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:69:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[16.449s]    69 | [01;35m[K}[m[K
+[16.449s]       | [01;35m[K^[m[K
+[17.019s] gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o] Error 1
+[17.021s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/minimal_opencv_ros2_subscriber.dir/all] Error 2
+[17.021s] gmake: *** [Makefile:146: all] Error 2
+[17.034s] Invoked command in '/home/ethan/ros2_ws/build/my_opencv_demo' returned '2': CMAKE_PREFIX_PATH=/home/ethan/ros2_ws/install/cv_bridge:/home/ethan/ros2_ws/install/vision_opencv:/home/ethan/ros2_ws/install/my_opencv_demo:/home/ethan/ros2_ws/install/image_geometry:/home/ethan/ros2_ws/install/opencv_tests:/opt/ros/iron LD_LIBRARY_PATH=/home/ethan/ros2_ws/install/cv_bridge/lib:/home/ethan/ros2_ws/install/image_geometry/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages:/home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6

@@ -1,0 +1,101 @@
+[0.020s] Invoking command in '/home/ethan/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/ethan/ros2_ws/src/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/ethan/ros2_ws/install/image_geometry
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.269s] -- Detecting C compiler ABI info
+[0.446s] -- Detecting C compiler ABI info - done
+[0.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.462s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.471s] -- Detecting CXX compiler ABI info
+[0.717s] -- Detecting CXX compiler ABI info - done
+[0.732s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.733s] -- Detecting CXX compile features
+[0.734s] -- Detecting CXX compile features - done
+[0.740s] -- Found ament_cmake_python: 2.0.6 (/opt/ros/iron/share/ament_cmake_python/cmake)
+[0.745s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[1.188s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.586s] -- Found OpenCV: /usr/local (found version "4.10.0") found components: calib3d core highgui imgproc 
+[1.588s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[1.665s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.687s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.159s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.164s] -- Looking for pthread.h
+[2.326s] -- Looking for pthread.h - found
+[2.327s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.496s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.498s] -- Found Threads: TRUE  
+[2.644s] -- Configuring done
+[2.689s] -- Generating done
+[2.693s] -- Build files have been written to: /home/ethan/ros2_ws/build/image_geometry
+[2.715s] Invoked command in '/home/ethan/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/ethan/ros2_ws/src/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/ethan/ros2_ws/install/image_geometry
+[2.720s] Invoking command in '/home/ethan/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/image_geometry -- -j6 -l6
+[2.816s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.819s] [ 33%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o[0m
+[2.819s] [ 33%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o[0m
+[2.823s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.837s] [ 44%] Built target ament_cmake_python_copy_image_geometry
+[3.382s] running egg_info
+[3.384s] creating image_geometry.egg-info
+[3.384s] writing image_geometry.egg-info/PKG-INFO
+[3.385s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[3.386s] writing top-level names to image_geometry.egg-info/top_level.txt
+[3.387s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[3.396s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[3.398s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[3.495s] [ 44%] Built target ament_cmake_python_build_image_geometry_egg
+[5.292s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.385s] [ 55%] Built target gtest_main
+[6.597s] [ 66%] [32m[1mLinking CXX shared library libimage_geometry.so[0m
+[6.855s] [ 66%] Built target image_geometry
+[10.420s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.633s] [ 77%] Built target gtest
+[10.673s] [ 88%] [32mBuilding CXX object CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o[0m
+[15.271s] [100%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[15.672s] [100%] Built target image_geometry-utest
+[15.697s] Invoked command in '/home/ethan/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/image_geometry -- -j6 -l6
+[15.756s] Invoking command in '/home/ethan/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ethan/ros2_ws/build/image_geometry
+[15.771s] -- Install configuration: ""
+[15.771s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[15.772s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[15.772s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry-3.5.0-py3.10.egg-info
+[15.772s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry-3.5.0-py3.10.egg-info/dependency_links.txt
+[15.772s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry-3.5.0-py3.10.egg-info/PKG-INFO
+[15.773s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry-3.5.0-py3.10.egg-info/SOURCES.txt
+[15.773s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry-3.5.0-py3.10.egg-info/top_level.txt
+[15.773s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry
+[15.774s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry/__init__.py
+[15.774s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry/cameramodels.py
+[15.857s] Listing '/home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry'...
+[15.858s] Compiling '/home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry/__init__.py'...
+[15.858s] Compiling '/home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages/image_geometry/cameramodels.py'...
+[15.873s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/include/image_geometry
+[15.874s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/include/image_geometry/image_geometry
+[15.874s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.hpp
+[15.874s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.hpp
+[15.874s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[15.875s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[15.875s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[15.875s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/lib/libimage_geometry.so
+[15.876s] -- Set runtime path of "/home/ethan/ros2_ws/install/image_geometry/lib/libimage_geometry.so" to ""
+[15.876s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[15.876s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[15.877s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[15.877s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[15.877s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[15.877s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[15.878s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[15.878s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[15.878s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[15.878s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[15.879s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/package.dsv
+[15.879s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[15.879s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[15.880s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[15.880s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[15.880s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.880s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[15.881s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[15.881s] -- Installing: /home/ethan/ros2_ws/install/image_geometry/share/image_geometry/package.xml
+[15.890s] Invoked command in '/home/ethan/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ethan/ros2_ws/build/image_geometry

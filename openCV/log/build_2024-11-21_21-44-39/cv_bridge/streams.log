@@ -1,0 +1,112 @@
+[0.026s] Invoking command in '/home/ethan/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/ethan/ros2_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/ethan/ros2_ws/install/cv_bridge
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.275s] -- The CXX compiler identification is GNU 11.4.0
+[0.292s] -- Detecting C compiler ABI info
+[0.458s] -- Detecting C compiler ABI info - done
+[0.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.473s] -- Detecting C compile features
+[0.475s] -- Detecting C compile features - done
+[0.482s] -- Detecting CXX compiler ABI info
+[0.735s] -- Detecting CXX compiler ABI info - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.757s] -- Detecting CXX compile features
+[0.758s] -- Detecting CXX compile features - done
+[0.765s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[1.217s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.360s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[2.407s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 
+[2.412s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[2.492s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.513s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.543s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.888s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.893s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.099s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.153s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.595s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[4.235s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[4.406s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[4.408s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[4.590s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[4.592s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[4.758s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[4.767s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.973s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.979s] -- Looking for pthread.h
+[5.151s] -- Looking for pthread.h - found
+[5.152s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.305s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.308s] -- Found Threads: TRUE  
+[7.703s] -- Configuring done
+[7.784s] -- Generating done
+[7.790s] -- Build files have been written to: /home/ethan/ros2_ws/build/cv_bridge
+[7.826s] Invoked command in '/home/ethan/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/ethan/ros2_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/ethan/ros2_ws/install/cv_bridge
+[7.830s] Invoking command in '/home/ethan/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/cv_bridge -- -j6 -l6
+[7.919s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[7.919s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[7.920s] [35m[1mConsolidate compiler generated dependencies of target cv_bridge[0m
+[7.948s] [ 11%] Built target gtest_main
+[7.952s] [ 22%] Built target gtest
+[7.963s] [ 44%] Built target cv_bridge
+[7.964s] [ 44%] Built target ament_cmake_python_copy_cv_bridge
+[7.990s] [35m[1mConsolidate compiler generated dependencies of target cv_bridge_boost[0m
+[7.991s] [35m[1mConsolidate compiler generated dependencies of target cv_bridge-utest[0m
+[8.038s] [ 83%] Built target cv_bridge-utest
+[8.051s] [100%] Built target cv_bridge_boost
+[8.475s] running egg_info
+[8.477s] writing cv_bridge.egg-info/PKG-INFO
+[8.478s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[8.478s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[8.482s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[8.483s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[8.553s] [100%] Built target ament_cmake_python_build_cv_bridge_egg
+[8.578s] Invoked command in '/home/ethan/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/cv_bridge -- -j6 -l6
+[8.646s] Invoking command in '/home/ethan/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ethan/ros2_ws/build/cv_bridge
+[8.661s] -- Install configuration: ""
+[8.661s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[8.661s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[8.661s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge-3.5.0-py3.10.egg-info
+[8.662s] -- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge-3.5.0-py3.10.egg-info/dependency_links.txt
+[8.662s] -- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge-3.5.0-py3.10.egg-info/PKG-INFO
+[8.662s] -- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge-3.5.0-py3.10.egg-info/SOURCES.txt
+[8.662s] -- Installing: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge-3.5.0-py3.10.egg-info/top_level.txt
+[8.663s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge
+[8.663s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge/core.py
+[8.663s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge/__init__.py
+[8.746s] Listing '/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge'...
+[8.746s] Listing '/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge/boost'...
+[8.761s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+[8.762s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[8.762s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[8.762s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge
+[8.763s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge
+[8.763s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp
+[8.763s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[8.763s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/visibility_control.h
+[8.763s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[8.764s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp
+[8.764s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.hpp
+[8.764s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+[8.764s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[8.765s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[8.765s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[8.765s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[8.765s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[8.765s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[8.766s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[8.766s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[8.766s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[8.766s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[8.766s] -- Installing: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[8.767s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[8.767s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[8.768s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[8.768s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[8.768s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.768s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[8.769s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[8.769s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[8.770s] -- Up-to-date: /home/ethan/ros2_ws/install/cv_bridge/share/cv_bridge/package.xml
+[8.772s] Invoked command in '/home/ethan/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/ethan/ros2_ws/build/cv_bridge

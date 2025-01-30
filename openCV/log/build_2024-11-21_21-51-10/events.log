@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.001135] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001627] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001702] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.001825] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.002015] (my_opencv_demo) JobQueued: {'identifier': 'my_opencv_demo', 'dependencies': OrderedDict([('cv_bridge', '/home/ethan/ros2_ws/install/cv_bridge')])}
+[0.002141] (my_opencv_demo) JobStarted: {'identifier': 'my_opencv_demo'}
+[0.021623] (my_opencv_demo) JobProgress: {'identifier': 'my_opencv_demo', 'progress': 'cmake'}
+[0.023065] (my_opencv_demo) JobProgress: {'identifier': 'my_opencv_demo', 'progress': 'build'}
+[0.024402] (my_opencv_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ethan/ros2_ws/build/my_opencv_demo', '--', '-j6', '-l6'], 'cwd': '/home/ethan/ros2_ws/build/my_opencv_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ethan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ethan/ros2_ws/install/cv_bridge/lib:/home/ethan/ros2_ws/install/image_geometry/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/ethan'), ('OLDPWD', '/home/ethan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ethan/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ethan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ethan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ethan-desktop:@/tmp/.ICE-unix/2527,unix/ethan-desktop:/tmp/.ICE-unix/2527'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d9db2f02_8cc1_43ee_bcdc_6fc9ff1b8661'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.223'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ethan/ros2_ws/install/vision_opencv:/home/ethan/ros2_ws/install/opencv_tests:/home/ethan/ros2_ws/install/my_opencv_demo:/home/ethan/ros2_ws/install/image_geometry:/home/ethan/ros2_ws/install/cv_bridge:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ethan/ros2_ws/build/my_opencv_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ethan/ros2_ws/install/cv_bridge/lib/python3.10/site-packages:/home/ethan/ros2_ws/install/opencv_tests/lib/python3.10/site-packages:/home/ethan/ros2_ws/install/image_geometry/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ethan/ros2_ws/install/cv_bridge:/home/ethan/ros2_ws/install/vision_opencv:/home/ethan/ros2_ws/install/my_opencv_demo:/home/ethan/ros2_ws/install/image_geometry:/home/ethan/ros2_ws/install/opencv_tests:/opt/ros/iron')]), 'shell': False}
+[0.099501] (-) TimerEvent: {}
+[0.125110] (my_opencv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_subscriber\x1b[0m\n'}
+[0.158862] (my_opencv_demo) StdoutLine: {'line': b'[ 50%] Built target minimal_opencv_ros2_node\n'}
+[0.166619] (my_opencv_demo) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o\x1b[0m\n'}
+[0.199744] (-) TimerEvent: {}
+[0.300662] (-) TimerEvent: {}
+[0.401342] (-) TimerEvent: {}
+[0.502143] (-) TimerEvent: {}
+[0.602906] (-) TimerEvent: {}
+[0.703667] (-) TimerEvent: {}
+[0.804444] (-) TimerEvent: {}
+[0.905225] (-) TimerEvent: {}
+[1.006102] (-) TimerEvent: {}
+[1.106888] (-) TimerEvent: {}
+[1.207693] (-) TimerEvent: {}
+[1.308509] (-) TimerEvent: {}
+[1.409336] (-) TimerEvent: {}
+[1.510196] (-) TimerEvent: {}
+[1.611037] (-) TimerEvent: {}
+[1.711862] (-) TimerEvent: {}
+[1.812654] (-) TimerEvent: {}
+[1.913455] (-) TimerEvent: {}
+[2.014293] (-) TimerEvent: {}
+[2.115101] (-) TimerEvent: {}
+[2.215924] (-) TimerEvent: {}
+[2.316754] (-) TimerEvent: {}
+[2.417615] (-) TimerEvent: {}
+[2.518421] (-) TimerEvent: {}
+[2.619211] (-) TimerEvent: {}
+[2.720001] (-) TimerEvent: {}
+[2.820772] (-) TimerEvent: {}
+[2.921597] (-) TimerEvent: {}
+[3.022368] (-) TimerEvent: {}
+[3.123157] (-) TimerEvent: {}
+[3.223984] (-) TimerEvent: {}
+[3.324803] (-) TimerEvent: {}
+[3.425638] (-) TimerEvent: {}
+[3.526416] (-) TimerEvent: {}
+[3.627216] (-) TimerEvent: {}
+[3.728044] (-) TimerEvent: {}
+[3.828791] (-) TimerEvent: {}
+[3.929498] (-) TimerEvent: {}
+[4.030337] (-) TimerEvent: {}
+[4.131130] (-) TimerEvent: {}
+[4.231953] (-) TimerEvent: {}
+[4.332768] (-) TimerEvent: {}
+[4.433597] (-) TimerEvent: {}
+[4.534539] (-) TimerEvent: {}
+[4.635297] (-) TimerEvent: {}
+[4.736047] (-) TimerEvent: {}
+[4.836842] (-) TimerEvent: {}
+[4.937667] (-) TimerEvent: {}
+[5.038451] (-) TimerEvent: {}
+[5.139254] (-) TimerEvent: {}
+[5.240077] (-) TimerEvent: {}
+[5.340889] (-) TimerEvent: {}
+[5.441720] (-) TimerEvent: {}
+[5.542530] (-) TimerEvent: {}
+[5.643344] (-) TimerEvent: {}
+[5.744182] (-) TimerEvent: {}
+[5.844973] (-) TimerEvent: {}
+[5.945756] (-) TimerEvent: {}
+[6.046552] (-) TimerEvent: {}
+[6.147358] (-) TimerEvent: {}
+[6.248177] (-) TimerEvent: {}
+[6.349007] (-) TimerEvent: {}
+[6.449860] (-) TimerEvent: {}
+[6.550684] (-) TimerEvent: {}
+[6.651494] (-) TimerEvent: {}
+[6.752322] (-) TimerEvent: {}
+[6.853133] (-) TimerEvent: {}
+[6.953976] (-) TimerEvent: {}
+[7.054785] (-) TimerEvent: {}
+[7.155597] (-) TimerEvent: {}
+[7.256420] (-) TimerEvent: {}
+[7.357249] (-) TimerEvent: {}
+[7.458087] (-) TimerEvent: {}
+[7.558892] (-) TimerEvent: {}
+[7.659688] (-) TimerEvent: {}
+[7.760498] (-) TimerEvent: {}
+[7.861292] (-) TimerEvent: {}
+[7.962178] (-) TimerEvent: {}
+[8.063006] (-) TimerEvent: {}
+[8.163819] (-) TimerEvent: {}
+[8.264632] (-) TimerEvent: {}
+[8.365443] (-) TimerEvent: {}
+[8.466302] (-) TimerEvent: {}
+[8.567129] (-) TimerEvent: {}
+[8.667930] (-) TimerEvent: {}
+[8.768769] (-) TimerEvent: {}
+[8.869598] (-) TimerEvent: {}
+[8.953820] (my_opencv_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalImageSubscriber::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.954585] (my_opencv_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:34:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kcv::aruco::Dictionary\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kcv::Ptr<cv::aruco::Dictionary>\x1b[m\x1b[K\xe2\x80\x99 requested\n'}
+[8.954902] (my_opencv_demo) StderrLine: {'line': b'   34 |       cv::Ptr<cv::aruco::Dictionary> dictionary = \x1b[01;31m\x1b[Kcv::aruco::getPredefinedDictionary(cv::aruco::DICT_4X4_50)\x1b[m\x1b[K;\n'}
+[8.955174] (my_opencv_demo) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.969713] (-) TimerEvent: {}
+[9.070437] (-) TimerEvent: {}
+[9.171248] (-) TimerEvent: {}
+[9.272068] (-) TimerEvent: {}
+[9.372880] (-) TimerEvent: {}
+[9.473700] (-) TimerEvent: {}
+[9.574492] (-) TimerEvent: {}
+[9.675312] (-) TimerEvent: {}
+[9.776128] (-) TimerEvent: {}
+[9.876943] (-) TimerEvent: {}
+[9.977771] (-) TimerEvent: {}
+[10.078589] (-) TimerEvent: {}
+[10.179417] (-) TimerEvent: {}
+[10.280250] (-) TimerEvent: {}
+[10.381094] (-) TimerEvent: {}
+[10.481910] (-) TimerEvent: {}
+[10.582607] (-) TimerEvent: {}
+[10.683419] (-) TimerEvent: {}
+[10.784242] (-) TimerEvent: {}
+[10.885062] (-) TimerEvent: {}
+[10.985903] (-) TimerEvent: {}
+[11.086723] (-) TimerEvent: {}
+[11.187530] (-) TimerEvent: {}
+[11.288353] (-) TimerEvent: {}
+[11.389162] (-) TimerEvent: {}
+[11.490019] (-) TimerEvent: {}
+[11.590864] (-) TimerEvent: {}
+[11.691684] (-) TimerEvent: {}
+[11.792514] (-) TimerEvent: {}
+[11.893308] (-) TimerEvent: {}
+[11.994140] (-) TimerEvent: {}
+[12.094955] (-) TimerEvent: {}
+[12.195765] (-) TimerEvent: {}
+[12.296597] (-) TimerEvent: {}
+[12.397397] (-) TimerEvent: {}
+[12.498231] (-) TimerEvent: {}
+[12.599059] (-) TimerEvent: {}
+[12.699890] (-) TimerEvent: {}
+[12.800733] (-) TimerEvent: {}
+[12.901597] (-) TimerEvent: {}
+[13.002394] (-) TimerEvent: {}
+[13.103186] (-) TimerEvent: {}
+[13.204015] (-) TimerEvent: {}
+[13.304815] (-) TimerEvent: {}
+[13.405662] (-) TimerEvent: {}
+[13.506445] (-) TimerEvent: {}
+[13.607256] (-) TimerEvent: {}
+[13.708061] (-) TimerEvent: {}
+[13.808863] (-) TimerEvent: {}
+[13.909705] (-) TimerEvent: {}
+[14.010516] (-) TimerEvent: {}
+[14.111308] (-) TimerEvent: {}
+[14.212128] (-) TimerEvent: {}
+[14.312956] (-) TimerEvent: {}
+[14.413761] (-) TimerEvent: {}
+[14.514571] (-) TimerEvent: {}
+[14.615371] (-) TimerEvent: {}
+[14.716176] (-) TimerEvent: {}
+[14.816964] (-) TimerEvent: {}
+[14.917798] (-) TimerEvent: {}
+[15.018609] (-) TimerEvent: {}
+[15.119435] (-) TimerEvent: {}
+[15.220240] (-) TimerEvent: {}
+[15.321039] (-) TimerEvent: {}
+[15.421891] (-) TimerEvent: {}
+[15.522725] (-) TimerEvent: {}
+[15.623531] (-) TimerEvent: {}
+[15.724361] (-) TimerEvent: {}
+[15.825172] (-) TimerEvent: {}
+[15.904610] (my_opencv_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o] Error 1\n'}
+[15.905295] (my_opencv_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/minimal_opencv_ros2_subscriber.dir/all] Error 2\n'}
+[15.906289] (my_opencv_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.912673] (my_opencv_demo) CommandEnded: {'returncode': 2}
+[15.925247] (-) TimerEvent: {}
+[16.025955] (my_opencv_demo) JobEnded: {'identifier': 'my_opencv_demo', 'rc': 2}
+[16.027491] (-) TimerEvent: {}
+[16.037304] (-) EventReactorShutdown: {}

@@ -1,0 +1,57 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ethan/opencv_build/opencv_contrib/modules/signal/include/opencv2/signal.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/ethan/opencv_build/opencv_contrib/modules/signal/include/opencv2/signal/signal_resample.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/ethan/opencv_build/opencv_contrib/modules/signal/src/signal_resample.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/ethan/opencv_build/opencv_contrib/modules/signal/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_signal",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/ethan/opencv_build/build/cvconfig.h"
+		},
+		{
+			"file" : "/home/ethan/opencv_build/build/opencv2/opencv_modules.hpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_signal",
+			"Module"
+		],
+		"name" : "opencv_signal"
+	}
+}

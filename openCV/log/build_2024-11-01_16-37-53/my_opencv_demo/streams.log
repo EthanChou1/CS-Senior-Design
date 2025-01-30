@@ -1,0 +1,21 @@
+[0.019s] Invoking command in '/home/ethan/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node[0m
+[0.158s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o[0m
+[0.646s] In file included from [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:5[m[K:
+[0.646s] [01m[K/opt/ros/iron/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.646s]    42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+[0.647s]       |  [01;35m[K^~~~~~~[m[K
+[8.897s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:[m[K In constructor ‘[01m[KMinimalImagePublisher::MinimalImagePublisher()[m[K’:
+[8.897s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:17:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kamp[m[K’ was not declared in this scope
+[8.897s]    17 |         500ms, std::bind(&[01;31m[Kamp[m[K;MinimalImagePublisher::timer_callback, this));
+[8.898s]       |                           [01;31m[K^~~[m[K
+[8.898s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:17:54:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid MinimalImagePublisher::timer_callback()[m[K’
+[8.898s]    17 |         500ms, std::bind(&amp;[01;31m[KMinimalImagePublisher::timer_callback[m[K, this));
+[8.898s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.899s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:21:8:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.899s]    21 |   void [01;36m[Ktimer_callback[m[K() {
+[8.899s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[12.467s] gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_node.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o] Error 1
+[12.467s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_opencv_ros2_node.dir/all] Error 2
+[12.468s] gmake: *** [Makefile:146: all] Error 2
+[12.475s] Invoked command in '/home/ethan/ros2_ws/build/my_opencv_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6

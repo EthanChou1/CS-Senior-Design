@@ -1,0 +1,34 @@
+[0.017s] Invoking command in '/home/ethan/ros2_ws/build/my_opencv_demo': /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_subscriber[0m
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node[0m
+[0.129s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o[0m
+[0.129s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o[0m
+[17.335s] [ 75%] [32m[1mLinking CXX executable minimal_opencv_ros2_node[0m
+[17.598s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/iron/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[18.618s] [ 75%] Built target minimal_opencv_ros2_node
+[24.087s] [100%] [32m[1mLinking CXX executable minimal_opencv_ros2_subscriber[0m
+[24.507s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/iron/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[25.680s] [100%] Built target minimal_opencv_ros2_subscriber
+[25.711s] Invoked command in '/home/ethan/ros2_ws/build/my_opencv_demo' returned '0': /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6
+[25.788s] Invoking command in '/home/ethan/ros2_ws/build/my_opencv_demo': /usr/bin/cmake --install /home/ethan/ros2_ws/build/my_opencv_demo
+[25.809s] -- Install configuration: ""
+[25.809s] -- Installing: /home/ethan/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node
+[25.816s] -- Set runtime path of "/home/ethan/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node" to ""
+[25.816s] -- Installing: /home/ethan/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_subscriber
+[25.830s] -- Set runtime path of "/home/ethan/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_subscriber" to ""
+[25.831s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/ament_index/resource_index/package_run_dependencies/my_opencv_demo
+[25.831s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/ament_index/resource_index/parent_prefix_path/my_opencv_demo
+[25.831s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.sh
+[25.831s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.dsv
+[25.831s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/path.sh
+[25.831s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/path.dsv
+[25.832s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.bash
+[25.832s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.sh
+[25.832s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.zsh
+[25.832s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.dsv
+[25.832s] -- Installing: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/package.dsv
+[25.832s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/ament_index/resource_index/packages/my_opencv_demo
+[25.832s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig.cmake
+[25.833s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig-version.cmake
+[25.833s] -- Up-to-date: /home/ethan/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/package.xml
+[25.837s] Invoked command in '/home/ethan/ros2_ws/build/my_opencv_demo' returned '0': /usr/bin/cmake --install /home/ethan/ros2_ws/build/my_opencv_demo

@@ -1,0 +1,40 @@
+[0.022s] Invoking command in '/home/ethan/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6
+[0.066s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.390s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.464s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.532s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.814s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.816s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.337s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[1.393s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[1.653s] -- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+[1.679s] -- Found image_transport: 4.2.4 (/opt/ros/iron/share/image_transport/cmake)
+[1.747s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.931s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.931s] -- Configured cppcheck include dirs: 
+[1.932s] -- Configured cppcheck exclude dirs and/or files: 
+[1.933s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.933s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.935s] -- Added test 'lint_cmake' to check CMake code style
+[1.937s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.939s] -- Added test 'uncrustify' to check C / C++ code style
+[1.939s] -- Configured uncrustify additional arguments: 
+[1.940s] -- Added test 'xmllint' to check XML markup files
+[1.944s] -- Configuring done
+[2.009s] -- Generating done
+[2.015s] -- Build files have been written to: /home/ethan/ros2_ws/build/my_opencv_demo
+[2.088s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node[0m
+[2.088s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_subscriber[0m
+[2.134s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o[0m
+[2.134s] [ 75%] Built target minimal_opencv_ros2_node
+[2.819s] [01m[K/home/ethan/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_subscriber.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/aruco.hpp: No such file or directory
+[2.819s]     5 | #include [01;31m[K<opencv2/aruco.hpp>[m[K
+[2.820s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.820s] compilation terminated.
+[2.827s] gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_subscriber.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_subscriber.dir/src/minimal_opencv_ros2_subscriber.cpp.o] Error 1
+[2.827s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/minimal_opencv_ros2_subscriber.dir/all] Error 2
+[2.828s] gmake: *** [Makefile:146: all] Error 2
+[2.835s] Invoked command in '/home/ethan/ros2_ws/build/my_opencv_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/ethan/ros2_ws/build/my_opencv_demo -- -j6 -l6
