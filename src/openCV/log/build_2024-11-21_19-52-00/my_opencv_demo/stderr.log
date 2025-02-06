@@ -1,9 +1,0 @@
-[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find OpenCV (missing: aruco) (found version "4.8.0")
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:354 (find_package_handle_standard_args)
-  CMakeLists.txt:15 (find_package)
-
-[0m
-gmake: *** [Makefile:308: cmake_check_build_system] Error 1

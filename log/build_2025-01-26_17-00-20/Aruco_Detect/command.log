@@ -1,3 +1,0 @@
-Invoking command in '/home/david/drone1_ws/build/Aruco_Detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/david/drone1_ws/src/Aruco_Detect -DCMAKE_INSTALL_PREFIX=/home/david/drone1_ws/install/Aruco_Detect
-Invoked command in '/home/david/drone1_ws/build/Aruco_Detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/david/drone1_ws/src/Aruco_Detect -DCMAKE_INSTALL_PREFIX=/home/david/drone1_ws/install/Aruco_Detect
-Invoking command in '/home/david/drone1_ws/build/Aruco_Detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Aruco_Detect -- -j8 -l8

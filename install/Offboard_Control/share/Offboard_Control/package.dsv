@@ -1,8 +1,0 @@
-source;share/Offboard_Control/hook/cmake_prefix_path.ps1
-source;share/Offboard_Control/hook/cmake_prefix_path.dsv
-source;share/Offboard_Control/hook/cmake_prefix_path.sh
-source;share/Offboard_Control/local_setup.bash
-source;share/Offboard_Control/local_setup.dsv
-source;share/Offboard_Control/local_setup.ps1
-source;share/Offboard_Control/local_setup.sh
-source;share/Offboard_Control/local_setup.zsh

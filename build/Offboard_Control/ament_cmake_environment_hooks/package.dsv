@@ -1,4 +1,0 @@
-source;share/Offboard_Control/local_setup.bash
-source;share/Offboard_Control/local_setup.dsv
-source;share/Offboard_Control/local_setup.sh
-source;share/Offboard_Control/local_setup.zsh

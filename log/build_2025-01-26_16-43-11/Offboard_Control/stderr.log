@@ -1,8 +1,0 @@
-WARNING: Package name "Offboard_Control" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
-[01m[K/home/david/drone1_ws/src/Offboard_Control/src/Autonomous_Control.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rcl.hpp: No such file or directory
-    1 | #include [01;31m[K"rclcpp/rcl.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/AutonomousNode.dir/build.make:76: CMakeFiles/AutonomousNode.dir/src/Autonomous_Control.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/AutonomousNode.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

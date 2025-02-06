@@ -1,8 +1,0 @@
-source;share/Search_Protocol/hook/cmake_prefix_path.ps1
-source;share/Search_Protocol/hook/cmake_prefix_path.dsv
-source;share/Search_Protocol/hook/cmake_prefix_path.sh
-source;share/Search_Protocol/local_setup.bash
-source;share/Search_Protocol/local_setup.dsv
-source;share/Search_Protocol/local_setup.ps1
-source;share/Search_Protocol/local_setup.sh
-source;share/Search_Protocol/local_setup.zsh

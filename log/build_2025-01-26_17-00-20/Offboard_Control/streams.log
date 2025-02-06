@@ -1,5 +1,0 @@
-[0.023s] Invoking command in '/home/david/drone1_ws/build/Offboard_Control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/david/drone1_ws/build/Offboard_Control -- -j8 -l8
-[0.070s] [35m[1mConsolidate compiler generated dependencies of target AutonomousNode[0m
-[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/AutonomousNode.dir/src/Autonomous_Control.cpp.o[0m
-[3.959s] [100%] [32m[1mLinking CXX executable AutonomousNode[0m
-[4.104s] [100%] Built target AutonomousNode

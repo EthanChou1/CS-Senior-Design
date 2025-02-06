@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:32:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "​install".
-
-[0m

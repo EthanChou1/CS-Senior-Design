@@ -1,8 +1,0 @@
-[0.022s] Invoking command in '/home/ethan/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ethan/ros2_ws/src/my_opencv_demo -DCMAKE_INSTALL_PREFIX=/home/ethan/ros2_ws/install/my_opencv_demo
-[0.035s] [31mCMake Error at CMakeLists.txt:32:
-[0.036s]   Parse error.  Expected a command name, got unquoted argument with text
-[0.036s]   "​install".
-[0.036s] 
-[0.036s] -- Configuring incomplete, errors occurred!
-[0.036s] [0m
-[0.039s] Invoked command in '/home/ethan/ros2_ws/build/my_opencv_demo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ethan/ros2_ws/src/my_opencv_demo -DCMAKE_INSTALL_PREFIX=/home/ethan/ros2_ws/install/my_opencv_demo
