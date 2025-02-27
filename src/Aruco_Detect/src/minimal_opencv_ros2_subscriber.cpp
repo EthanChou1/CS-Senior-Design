@@ -77,7 +77,7 @@ private:
 
               // Calculate distance (in meters)
               //double distance = cv::norm(tvec);
-              double distance = 0 //Replace later
+              double distance = cv::norm(tvec); //Replace later
 
               // Calculate angle (in degrees)
               double angle_x = std::atan2(tvec[0], tvec[2]) * 180 / CV_PI; 
