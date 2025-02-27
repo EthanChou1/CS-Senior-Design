@@ -58,7 +58,7 @@ private:
               cv::circle(frame, center, 5, cv::Scalar(0, 255, 0), -1);
 
               // Find the distance from camera
-              float marker_size = 0.1; // Size of the ArUco marker in meters
+              float marker_size = 0.254; // Size of the ArUco marker in meters (10 inches from SOW)
               std::vector<cv::Point3f> object_points = {
                   cv::Point3f(-marker_size / 2, marker_size / 2, 0),
                   cv::Point3f(marker_size / 2, marker_size / 2, 0),
