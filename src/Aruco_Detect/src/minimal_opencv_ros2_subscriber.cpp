@@ -58,13 +58,13 @@ private:
               cv::circle(frame, center, 5, cv::Scalar(0, 255, 0), -1);
 
               // Find the distance from camera
-              //float marker_size = 0.1; // Size of the ArUco marker in meters
-              //std::vector<cv::Point3f> object_points = {
-                  //cv::Point3f(-marker_size / 2, marker_size / 2, 0),
-                  //cv::Point3f(marker_size / 2, marker_size / 2, 0),
-                  //cv::Point3f(marker_size / 2, -marker_size / 2, 0),
-                  //cv::Point3f(-marker_size / 2, -marker_size / 2, 0)
-              //};
+              float marker_size = 0.1; // Size of the ArUco marker in meters
+              std::vector<cv::Point3f> object_points = {
+                  cv::Point3f(-marker_size / 2, marker_size / 2, 0),
+                  cv::Point3f(marker_size / 2, marker_size / 2, 0),
+                  cv::Point3f(marker_size / 2, -marker_size / 2, 0),
+                  cv::Point3f(-marker_size / 2, -marker_size / 2, 0)
+              };
 
               // Camera resolution
               cv::Mat camera_matrix = (cv::Mat_<double>(3, 3) <<
@@ -77,7 +77,7 @@ private:
 
               // Calculate distance (in meters)
               //double distance = cv::norm(tvec);
-              double distance = 0 //Distance calc is wonky, will use better method later (just get height)
+              double distance = 0 //Replace later
 
               // Calculate angle (in degrees)
               double angle_x = std::atan2(tvec[0], tvec[2]) * 180 / CV_PI; 
