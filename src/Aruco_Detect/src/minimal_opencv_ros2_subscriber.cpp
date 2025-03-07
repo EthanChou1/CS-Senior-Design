@@ -36,7 +36,7 @@ private:
       std::vector<int> marker_ids;
       std::vector<std::vector<cv::Point2f>> marker_corners;
       cv::Ptr<cv::aruco::Dictionary> dictionary = cv::makePtr<cv::aruco::Dictionary>(
-          cv::aruco::getPredefinedDictionary(cv::aruco::DICT_4X4_50));
+          cv::aruco::getPredefinedDictionary(cv::aruco::DICT_6X6_50));
 
       cv::aruco::detectMarkers(frame, dictionary, marker_corners, marker_ids);
 
