@@ -1,0 +1,44 @@
+cd ros2_ws
+source /opt/ros/iron/setup.bash
+source ~/ros2_ws/install/setup.bash
+ros2 run my_opencv_demo minimal_opencv_ros2_node
+
+cd ros2_ws
+source /opt/ros/iron/setup.bash
+source ~/ros2_ws/install/setup.bash
+ros2 run my_opencv_demo minimal_opencv_ros2_subscriber
+
+cd ros2_ws
+source /opt/ros/iron/setup.bash
+source ~/ros2_ws/install/setup.bash
+colcon build --packages-select my_opencv_demo
+
+Installing aruco
+mkdir ~/opencv_build
+cd ~/opencv_build
+git clone https://github.com/opencv/opencv.git
+git clone https://github.com/opencv/opencv_contrib.git
+mkdir build
+cd build
+cmake -D CMAKE_BUILD_TYPE=Release \
+      -D CMAKE_INSTALL_PREFIX=/usr/local \
+      -D OPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules \
+      -D BUILD_opencv_aruco=ON \
+      -D BUILD_TESTS=OFF \
+      -D BUILD_PERF_TESTS=OFF \
+      -D WITH_CUDA=OFF \
+      ..
+make -j$(nproc)
+sudo make install
+sudo ldconfig
+find /usr/local/include/opencv4/ -name aruco.hpp
+
+cd ~/ros2_ws/src //Or wherever your code is
+git clone https://github.com/ros-perception/vision_opencv.git
+cd vision_opencv
+add this to your cmakelists: find_package(OpenCV REQUIRED PATHS /home/ethan/opencv_build/build NO_DEFAULT_PATH)
+//replace path with your own path
+cd ~/ros2_ws //or your own workspace
+colcon build --packages-select cv_bridge --event-handlers console_direct+
+
+
