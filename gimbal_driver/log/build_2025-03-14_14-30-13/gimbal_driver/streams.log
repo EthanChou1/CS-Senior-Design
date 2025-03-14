@@ -1,0 +1,37 @@
+[0.449s] Invoking command in '/home/bevyn/projects/gimbal/gimbal_driver': PYTHONPATH=/home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/gimbal_driver build --build-base /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/build install --record /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/install.log --single-version-externally-managed install_data
+[0.586s] running egg_info
+[0.587s] creating build/gimbal_driver/gimbal_driver.egg-info
+[0.587s] writing build/gimbal_driver/gimbal_driver.egg-info/PKG-INFO
+[0.587s] writing dependency_links to build/gimbal_driver/gimbal_driver.egg-info/dependency_links.txt
+[0.588s] writing entry points to build/gimbal_driver/gimbal_driver.egg-info/entry_points.txt
+[0.588s] writing requirements to build/gimbal_driver/gimbal_driver.egg-info/requires.txt
+[0.589s] writing top-level names to build/gimbal_driver/gimbal_driver.egg-info/top_level.txt
+[0.589s] writing manifest file 'build/gimbal_driver/gimbal_driver.egg-info/SOURCES.txt'
+[0.589s] reading manifest file 'build/gimbal_driver/gimbal_driver.egg-info/SOURCES.txt'
+[0.589s] writing manifest file 'build/gimbal_driver/gimbal_driver.egg-info/SOURCES.txt'
+[0.589s] running build
+[0.589s] running build_py
+[0.590s] creating /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/build
+[0.590s] creating /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/build/lib
+[0.590s] creating /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/build/lib/gimbal_driver
+[0.590s] copying gimbal_driver/__init__.py -> /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/build/lib/gimbal_driver
+[0.590s] copying gimbal_driver/gimbal_driver.py -> /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/build/lib/gimbal_driver
+[0.591s] running install
+[0.591s] running install_lib
+[0.592s] creating /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/lib/python3.10/site-packages/gimbal_driver
+[0.592s] copying /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/build/lib/gimbal_driver/__init__.py -> /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/lib/python3.10/site-packages/gimbal_driver
+[0.592s] copying /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/build/lib/gimbal_driver/gimbal_driver.py -> /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/lib/python3.10/site-packages/gimbal_driver
+[0.592s] byte-compiling /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/lib/python3.10/site-packages/gimbal_driver/__init__.py to __init__.cpython-310.pyc
+[0.592s] byte-compiling /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/lib/python3.10/site-packages/gimbal_driver/gimbal_driver.py to gimbal_driver.cpython-310.pyc
+[0.592s] running install_data
+[0.592s] creating /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/share/ament_index
+[0.593s] creating /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/share/ament_index/resource_index
+[0.593s] creating /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/share/ament_index/resource_index/packages
+[0.593s] copying resource/gimbal_driver -> /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/share/ament_index/resource_index/packages
+[0.593s] copying package.xml -> /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/share/gimbal_driver
+[0.593s] running install_egg_info
+[0.594s] Copying build/gimbal_driver/gimbal_driver.egg-info to /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/lib/python3.10/site-packages/gimbal_driver-0.0.0-py3.10.egg-info
+[0.594s] running install_scripts
+[0.608s] Installing talker script to /home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/lib/gimbal_driver
+[0.608s] writing list of installed files to '/home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/install.log'
+[0.624s] Invoked command in '/home/bevyn/projects/gimbal/gimbal_driver' returned '0': PYTHONPATH=/home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bevyn/projects/gimbal/gimbal_driver/install/gimbal_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/gimbal_driver build --build-base /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/build install --record /home/bevyn/projects/gimbal/gimbal_driver/build/gimbal_driver/install.log --single-version-externally-managed install_data

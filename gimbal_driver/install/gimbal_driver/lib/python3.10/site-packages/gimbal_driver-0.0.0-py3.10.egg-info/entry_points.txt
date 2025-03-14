@@ -1,0 +1,3 @@
+[console_scripts]
+talker = gimbal_driver.gimbal_driver:main
+
