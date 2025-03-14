@@ -27,7 +27,7 @@ cmake -D CMAKE_BUILD_TYPE=Release \
       -D BUILD_TESTS=OFF \
       -D BUILD_PERF_TESTS=OFF \
       -D WITH_CUDA=OFF \
-      ..
+      ../opencv
 make -j$(nproc)
 sudo make install
 sudo ldconfig
